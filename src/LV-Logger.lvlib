@@ -6,8 +6,18 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Get Source.vi" Type="VI" URL="../Private/Get Source.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Action.ctl" Type="VI" URL="../Public/Action.ctl"/>
+		<Item Name="Debug.vi" Type="VI" URL="../Public/Debug.vi"/>
+		<Item Name="Error.vi" Type="VI" URL="../Public/Error.vi"/>
+		<Item Name="Fatal.vi" Type="VI" URL="../Public/Fatal.vi"/>
+		<Item Name="Info.vi" Type="VI" URL="../Public/Info.vi"/>
+		<Item Name="Level.ctl" Type="VI" URL="../Public/Level.ctl"/>
+		<Item Name="Log.ctl" Type="VI" URL="../Public/Log.ctl"/>
+		<Item Name="Logger.vi" Type="VI" URL="../Public/Logger.vi"/>
+		<Item Name="Trace.vi" Type="VI" URL="../Public/Trace.vi"/>
 	</Item>
 </Library>
