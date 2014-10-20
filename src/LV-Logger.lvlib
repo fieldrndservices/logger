@@ -15,12 +15,10 @@
 		<Item Name="_Unregister.vi" Type="VI" URL="../Private/_Unregister.vi"/>
 		<Item Name="Action.ctl" Type="VI" URL="../Private/Action.ctl"/>
 		<Item Name="Create Level String.vi" Type="VI" URL="../Private/Create Level String.vi"/>
-		<Item Name="Level.ctl" Type="VI" URL="../Private/Level.ctl"/>
-		<Item Name="Message.ctl" Type="VI" URL="../Private/Message.ctl"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Action/Status" Type="Folder">
+		<Item Name="Action-Status" Type="Folder">
 			<Item Name="Debug.vi" Type="VI" URL="../Public/Action-Status/Debug.vi"/>
 			<Item Name="Error.vi" Type="VI" URL="../Public/Action-Status/Error.vi"/>
 			<Item Name="Fatal.vi" Type="VI" URL="../Public/Action-Status/Fatal.vi"/>
@@ -31,6 +29,10 @@
 			<Item Name="Obtain.vi" Type="VI" URL="../Public/Configure/Obtain.vi"/>
 			<Item Name="Register.vi" Type="VI" URL="../Public/Configure/Register.vi"/>
 			<Item Name="Unregister.vi" Type="VI" URL="../Public/Configure/Unregister.vi"/>
+		</Item>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="Level.ctl" Type="VI" URL="../Public/Controls/Level.ctl"/>
+			<Item Name="Message.ctl" Type="VI" URL="../Public/Controls/Message.ctl"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Create Message CSV.vi" Type="VI" URL="../Public/Utility/Create Message CSV.vi"/>
