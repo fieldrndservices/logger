@@ -21,16 +21,16 @@
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Action/Status" Type="Folder">
-			<Item Name="Debug.vi" Type="VI" URL="../Public/Debug.vi"/>
-			<Item Name="Error.vi" Type="VI" URL="../Public/Error.vi"/>
-			<Item Name="Fatal.vi" Type="VI" URL="../Public/Fatal.vi"/>
-			<Item Name="Info.vi" Type="VI" URL="../Public/Info.vi"/>
-			<Item Name="Trace.vi" Type="VI" URL="../Public/Trace.vi"/>
+			<Item Name="Debug.vi" Type="VI" URL="../Public/Action-Status/Debug.vi"/>
+			<Item Name="Error.vi" Type="VI" URL="../Public/Action-Status/Error.vi"/>
+			<Item Name="Fatal.vi" Type="VI" URL="../Public/Action-Status/Fatal.vi"/>
+			<Item Name="Info.vi" Type="VI" URL="../Public/Action-Status/Info.vi"/>
+			<Item Name="Trace.vi" Type="VI" URL="../Public/Action-Status/Trace.vi"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
-			<Item Name="Obtain.vi" Type="VI" URL="../Public/Obtain.vi"/>
-			<Item Name="Register.vi" Type="VI" URL="../Public/Register.vi"/>
-			<Item Name="Unregister.vi" Type="VI" URL="../Public/Unregister.vi"/>
+			<Item Name="Obtain.vi" Type="VI" URL="../Public/Configure/Obtain.vi"/>
+			<Item Name="Register.vi" Type="VI" URL="../Public/Configure/Register.vi"/>
+			<Item Name="Unregister.vi" Type="VI" URL="../Public/Configure/Unregister.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Create Message CSV.vi" Type="VI" URL="../Public/Utility/Create Message CSV.vi"/>
