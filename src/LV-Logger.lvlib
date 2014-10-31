@@ -24,6 +24,7 @@
 			<Item Name="Fatal.vi" Type="VI" URL="../Public/Action-Status/Fatal.vi"/>
 			<Item Name="Info.vi" Type="VI" URL="../Public/Action-Status/Info.vi"/>
 			<Item Name="Trace.vi" Type="VI" URL="../Public/Action-Status/Trace.vi"/>
+			<Item Name="Warn.vi" Type="VI" URL="../Public/Action-Status/Warn.vi"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
 			<Item Name="Obtain.vi" Type="VI" URL="../Public/Configure/Obtain.vi"/>
