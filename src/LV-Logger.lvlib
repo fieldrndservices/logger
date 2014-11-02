@@ -27,6 +27,7 @@
 			<Item Name="Warn.vi" Type="VI" URL="../Public/Action-Status/Warn.vi"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
+			<Item Name="Configure Verbosity.vi" Type="VI" URL="../Public/Configure/Configure Verbosity.vi"/>
 			<Item Name="Obtain.vi" Type="VI" URL="../Public/Configure/Obtain.vi"/>
 			<Item Name="Register.vi" Type="VI" URL="../Public/Configure/Register.vi"/>
 			<Item Name="Unregister.vi" Type="VI" URL="../Public/Configure/Unregister.vi"/>
