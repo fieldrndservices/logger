@@ -27,7 +27,10 @@
 		<Item Name="_Logger.vi" Type="VI" URL="../Private/_Logger.vi"/>
 		<Item Name="_Register.vi" Type="VI" URL="../Private/_Register.vi"/>
 		<Item Name="_Shutdown.vi" Type="VI" URL="../Private/_Shutdown.vi"/>
+		<Item Name="_Strip Whitespace.vi" Type="VI" URL="../Private/_Strip Whitespace.vi"/>
 		<Item Name="_Unregister.vi" Type="VI" URL="../Private/_Unregister.vi"/>
+		<Item Name="_Verbosity Action.ctl" Type="VI" URL="../Private/_Verbosity Action.ctl"/>
+		<Item Name="_Verbosity State.vi" Type="VI" URL="../Private/_Verbosity State.vi"/>
 		<Item Name="_Write Header.vi" Type="VI" URL="../Private/_Write Header.vi"/>
 		<Item Name="_Write.vi" Type="VI" URL="../Private/_Write.vi"/>
 	</Item>
@@ -53,9 +56,11 @@
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Configuration.ctl" Type="VI" URL="../Public/Controls/Configuration.ctl"/>
 			<Item Name="Message.ctl" Type="VI" URL="../Public/Controls/Message.ctl"/>
+			<Item Name="Severity.ctl" Type="VI" URL="../Public/Controls/Severity.ctl"/>
 			<Item Name="Tag.ctl" Type="VI" URL="../Public/Controls/Tag.ctl"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
+			<Item Name="Catch Error.vi" Type="VI" URL="../Public/Utility/Catch Error.vi"/>
 			<Item Name="Create Message CSV.vi" Type="VI" URL="../Public/Utility/Create Message CSV.vi"/>
 		</Item>
 		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
