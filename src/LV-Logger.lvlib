@@ -52,8 +52,8 @@
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Configuration.ctl" Type="VI" URL="../Public/Controls/Configuration.ctl"/>
-			<Item Name="Level.ctl" Type="VI" URL="../Public/Controls/Level.ctl"/>
 			<Item Name="Message.ctl" Type="VI" URL="../Public/Controls/Message.ctl"/>
+			<Item Name="Tag.ctl" Type="VI" URL="../Public/Controls/Tag.ctl"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Create Message CSV.vi" Type="VI" URL="../Public/Utility/Create Message CSV.vi"/>
