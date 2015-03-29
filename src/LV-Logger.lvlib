@@ -46,6 +46,7 @@
 		<Item Name="Configure" Type="Folder">
 			<Item Name="Configure File.vi" Type="VI" URL="../Public/Configure/Configure File.vi"/>
 			<Item Name="Configure Verbosity.vi" Type="VI" URL="../Public/Configure/Configure Verbosity.vi"/>
+			<Item Name="Disable Default File.vi" Type="VI" URL="../Public/Configure/Disable Default File.vi"/>
 			<Item Name="Obtain.vi" Type="VI" URL="../Public/Configure/Obtain.vi"/>
 			<Item Name="Register.vi" Type="VI" URL="../Public/Configure/Register.vi"/>
 			<Item Name="Unregister.vi" Type="VI" URL="../Public/Configure/Unregister.vi"/>
