@@ -18,6 +18,9 @@
 		<Item Name="_Create Level String.vi" Type="VI" URL="../Private/_Create Level String.vi"/>
 		<Item Name="_Create.vi" Type="VI" URL="../Private/_Create.vi"/>
 		<Item Name="_Destroy.vi" Type="VI" URL="../Private/_Destroy.vi"/>
+		<Item Name="_Error Handler Configuration Action.ctl" Type="VI" URL="../Private/_Error Handler Configuration Action.ctl"/>
+		<Item Name="_Error Handler Configuration.ctl" Type="VI" URL="../Private/_Error Handler Configuration.ctl"/>
+		<Item Name="_Error Handling Configuration State.vi" Type="VI" URL="../Private/_Error Handling Configuration State.vi"/>
 		<Item Name="_File Manager Action.ctl" Type="VI" URL="../Private/_File Manager Action.ctl"/>
 		<Item Name="_File Manager.vi" Type="VI" URL="../Private/_File Manager.vi"/>
 		<Item Name="_Find.vi" Type="VI" URL="../Private/_Find.vi"/>
@@ -29,8 +32,6 @@
 		<Item Name="_Shutdown.vi" Type="VI" URL="../Private/_Shutdown.vi"/>
 		<Item Name="_Strip Whitespace.vi" Type="VI" URL="../Private/_Strip Whitespace.vi"/>
 		<Item Name="_Unregister.vi" Type="VI" URL="../Private/_Unregister.vi"/>
-		<Item Name="_Verbosity Action.ctl" Type="VI" URL="../Private/_Verbosity Action.ctl"/>
-		<Item Name="_Verbosity State.vi" Type="VI" URL="../Private/_Verbosity State.vi"/>
 		<Item Name="_Write Header.vi" Type="VI" URL="../Private/_Write Header.vi"/>
 		<Item Name="_Write.vi" Type="VI" URL="../Private/_Write.vi"/>
 	</Item>
@@ -49,8 +50,9 @@
 		<Item Name="Configure" Type="Folder">
 			<Item Name="Configure File.vi" Type="VI" URL="../Public/Configure/Configure File.vi"/>
 			<Item Name="Configure Level.vi" Type="VI" URL="../Public/Configure/Configure Level.vi"/>
+			<Item Name="Configure User-Defined Codes.vi" Type="VI" URL="../Public/Configure/Configure User-Defined Codes.vi"/>
+			<Item Name="Configure User-Defined Descriptions.vi" Type="VI" URL="../Public/Configure/Configure User-Defined Descriptions.vi"/>
 			<Item Name="Configure Verbosity.vi" Type="VI" URL="../Public/Configure/Configure Verbosity.vi"/>
-			<Item Name="Configure.vi" Type="VI" URL="../Public/Configure/Configure.vi"/>
 			<Item Name="Disable Default File.vi" Type="VI" URL="../Public/Configure/Disable Default File.vi"/>
 			<Item Name="Obtain.vi" Type="VI" URL="../Public/Configure/Obtain.vi"/>
 			<Item Name="Register.vi" Type="VI" URL="../Public/Configure/Register.vi"/>
