@@ -22,7 +22,7 @@
 		<Item Name="images" Type="Folder" URL="../images">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="LV-Logger.lvlib" Type="Library" URL="../src/LV-Logger.lvlib"/>
+		<Item Name="CF-Logger.lvlib" Type="Library" URL="../src/CF-Logger.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -85,7 +85,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{BDC3B459-D31E-4B14-88D4-94FF00C0FA4A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV-Logger.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CF-Logger.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
