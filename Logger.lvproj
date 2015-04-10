@@ -22,7 +22,7 @@
 		<Item Name="images" Type="Folder" URL="../images">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="CF-Logger.lvlib" Type="Library" URL="../src/CF-Logger.lvlib"/>
+		<Item Name="Logger.lvlib" Type="Library" URL="../src/Logger.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -74,18 +74,18 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{8876A66C-5308-4739-95BE-DE183F21D6FC}</Property>
 				<Property Name="Bld_version.minor" Type="Int">6</Property>
 				<Property Name="Bld_version.patch" Type="Int">2</Property>
-				<Property Name="Destination[0].destName" Type="Str">CF-Logger.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Library/CF-Logger.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Logger.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Library/Logger.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/Library</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BDC3B459-D31E-4B14-88D4-94FF00C0FA4A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{052DF9F2-A413-4AAE-8040-8AB7C6D7C626}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CF-Logger.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Logger.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -95,11 +95,11 @@
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Field R&amp;D Services, LLC</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">An application logging library modeled after the Log4j and various programming language flavors for LabVIEW.</Property>
-				<Property Name="TgtF_internalName" Type="Str">CF-Logger</Property>
+				<Property Name="TgtF_internalName" Type="Str">Logger</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 Field R&amp;D Services, LLC</Property>
-				<Property Name="TgtF_productName" Type="Str">Christopher Field's (CF) Logging and Error Handling Library</Property>
+				<Property Name="TgtF_productName" Type="Str">Christopher Field's Logging and Error Handling Library</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{607DE7F7-BE15-45E1-B230-67972CA1E61E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">CF-Logger.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Logger.lvlibp</Property>
 			</Item>
 			<Item Name="Source" Type="Zip File">
 				<Property Name="Absolute[0]" Type="Bool">false</Property>
