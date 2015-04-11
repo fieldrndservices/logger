@@ -73,7 +73,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8876A66C-5308-4739-95BE-DE183F21D6FC}</Property>
 				<Property Name="Bld_version.minor" Type="Int">6</Property>
-				<Property Name="Bld_version.patch" Type="Int">3</Property>
+				<Property Name="Bld_version.patch" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">Logger.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Library/NI_AB_PROJECTNAME.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -82,7 +82,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Library</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E60DA9FE-57DC-44D2-B8D5-C856F9C558C7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{91EF719E-07B5-46D9-A717-0E6857758567}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Logger.lvlib</Property>
