@@ -68,6 +68,7 @@
 			<Item Name="Catch Error.vi" Type="VI" URL="../Public/Utility/Catch Error.vi"/>
 			<Item Name="Create Message CSV.vi" Type="VI" URL="../Public/Utility/Create Message CSV.vi"/>
 			<Item Name="Ignore Errors.vi" Type="VI" URL="../Public/Utility/Ignore Errors.vi"/>
+			<Item Name="Warn Errors.vi" Type="VI" URL="../Public/Utility/Warn Errors.vi"/>
 		</Item>
 		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
 		<Item Name="Shutdown.vi" Type="VI" URL="../Public/Shutdown.vi"/>
