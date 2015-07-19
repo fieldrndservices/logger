@@ -42,9 +42,11 @@
 			<Item Name="Error.vi" Type="VI" URL="../Public/Action-Status/Error.vi"/>
 			<Item Name="Fatal.vi" Type="VI" URL="../Public/Action-Status/Fatal.vi"/>
 			<Item Name="Info.vi" Type="VI" URL="../Public/Action-Status/Info.vi"/>
+			<Item Name="Register Listener.vi" Type="VI" URL="../Public/Action-Status/Register Listener.vi"/>
 			<Item Name="Run.vi" Type="VI" URL="../Public/Action-Status/Run.vi"/>
 			<Item Name="Stop.vi" Type="VI" URL="../Public/Action-Status/Stop.vi"/>
 			<Item Name="Trace.vi" Type="VI" URL="../Public/Action-Status/Trace.vi"/>
+			<Item Name="Unregister Listener.vi" Type="VI" URL="../Public/Action-Status/Unregister Listener.vi"/>
 			<Item Name="Warn.vi" Type="VI" URL="../Public/Action-Status/Warn.vi"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
@@ -53,10 +55,6 @@
 			<Item Name="Configure User-Defined Codes.vi" Type="VI" URL="../Public/Configure/Configure User-Defined Codes.vi"/>
 			<Item Name="Configure User-Defined Descriptions.vi" Type="VI" URL="../Public/Configure/Configure User-Defined Descriptions.vi"/>
 			<Item Name="Configure Verbosity.vi" Type="VI" URL="../Public/Configure/Configure Verbosity.vi"/>
-			<Item Name="Disable Default File.vi" Type="VI" URL="../Public/Configure/Disable Default File.vi"/>
-			<Item Name="Obtain.vi" Type="VI" URL="../Public/Configure/Obtain.vi"/>
-			<Item Name="Register.vi" Type="VI" URL="../Public/Configure/Register.vi"/>
-			<Item Name="Unregister.vi" Type="VI" URL="../Public/Configure/Unregister.vi"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Configuration.ctl" Type="VI" URL="../Public/Controls/Configuration.ctl"/>
@@ -64,9 +62,13 @@
 			<Item Name="Severity.ctl" Type="VI" URL="../Public/Controls/Severity.ctl"/>
 			<Item Name="Tag.ctl" Type="VI" URL="../Public/Controls/Tag.ctl"/>
 		</Item>
+		<Item Name="Data" Type="Folder">
+			<Item Name="Read Listener.vi" Type="VI" URL="../Public/Data/Read Listener.vi"/>
+		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Catch Error.vi" Type="VI" URL="../Public/Utility/Catch Error.vi"/>
 			<Item Name="Create Message CSV.vi" Type="VI" URL="../Public/Utility/Create Message CSV.vi"/>
+			<Item Name="Disable Default File.vi" Type="VI" URL="../Public/Utility/Disable Default File.vi"/>
 			<Item Name="Mask Errors.vi" Type="VI" URL="../Public/Utility/Mask Errors.vi"/>
 		</Item>
 		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
