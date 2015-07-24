@@ -11,8 +11,6 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="_Control Action.ctl" Type="VI" URL="../Private/_Control Action.ctl"/>
 		<Item Name="_Control State.vi" Type="VI" URL="../Private/_Control State.vi"/>
-		<Item Name="_Create Base Log Folder.vi" Type="VI" URL="../Private/_Create Base Log Folder.vi"/>
-		<Item Name="_Create Calendar Log Folder.vi" Type="VI" URL="../Private/_Create Calendar Log Folder.vi"/>
 		<Item Name="_Create ISO 8601 File Name.vi" Type="VI" URL="../Private/_Create ISO 8601 File Name.vi"/>
 		<Item Name="_Create Level String.vi" Type="VI" URL="../Private/_Create Level String.vi"/>
 		<Item Name="_Error Handler Configuration Action.ctl" Type="VI" URL="../Private/_Error Handler Configuration Action.ctl"/>
