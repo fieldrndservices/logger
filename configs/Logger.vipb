@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2015-07-24 09:44:27" Creator="cfield" Comments="" ID="8b5235d58b339ac772205df3d559ff55">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2015-07-24 09:48:36" Creator="cfield" Comments="" ID="4443cdf30751f79c2650bb793b5c9847">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.0.1.10</Library_Version>
+    <Library_Version>1.0.1.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\Package</Library_Output_Folder>
@@ -32,7 +32,15 @@
       <Copyright/>
       <Packager>Christopher R. Field</Packager>
       <URL/>
-      <Release_Notes/>
+      <Release_Notes># Field R&amp;D Services Logger
+
+## [1.0.1] - 2015-07-24
+### Added
+- A VI Tree to document the public API
+
+### Fixed
+- `Initialize.vi` missing from the Functions palette
+- `Shutdown.vi` missing from the Functions palette</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -310,7 +318,7 @@
         <Path>..\src\Public\VI Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C37493049C78861253191ED5F9E31542</GUID>
+      <GUID>CE6B73EB09AFD3C8AA8C97E0E2F21699</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -471,7 +479,7 @@
         <Path>..\src\Public\Action-Status\Run.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>724467C2B0D99EC764C80F3800129B48</GUID>
+      <GUID>1DD25392520A3B7D4BDA8CEB053367C4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -562,7 +570,7 @@
         <Path>..\src\Public\Configure\Configure User-Defined Descriptions.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F2A4790C8AFF0A7352A6B389108EBB86</GUID>
+      <GUID>177B9BA6B65B2CBD71F847EAB246B431</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -597,7 +605,7 @@
         <Path>..\src\Public\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D921D901164FFED0589B53FEE3D317A1</GUID>
+      <GUID>46E02C700A0FC9FF1E1E1C11902A1BBD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -674,7 +682,7 @@
         <Path>..\src\Public\Utility\Disable Default File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9924B09CB51A89B3A81ADBCF5F86EDA7</GUID>
+      <GUID>D8B6C13968ECF77417A697EC8C067EE4</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -751,7 +759,7 @@
         <Path>..\src\Public\Controls\Tag.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4C53789392243DA2B48F737B2F24B93D</GUID>
+      <GUID>A9902FA4B02B7682FEFA62535EF3BA38</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
