@@ -11,7 +11,6 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="_Control Action.ctl" Type="VI" URL="../Private/_Control Action.ctl"/>
 		<Item Name="_Control State.vi" Type="VI" URL="../Private/_Control State.vi"/>
-		<Item Name="_Create ISO 8601 File Name.vi" Type="VI" URL="../Private/_Create ISO 8601 File Name.vi"/>
 		<Item Name="_Create Level String.vi" Type="VI" URL="../Private/_Create Level String.vi"/>
 		<Item Name="_Find.vi" Type="VI" URL="../Private/_Find.vi"/>
 		<Item Name="_Initialize.vi" Type="VI" URL="../Private/_Initialize.vi"/>
