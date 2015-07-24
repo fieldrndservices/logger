@@ -13,9 +13,6 @@
 		<Item Name="_Control State.vi" Type="VI" URL="../Private/_Control State.vi"/>
 		<Item Name="_Create ISO 8601 File Name.vi" Type="VI" URL="../Private/_Create ISO 8601 File Name.vi"/>
 		<Item Name="_Create Level String.vi" Type="VI" URL="../Private/_Create Level String.vi"/>
-		<Item Name="_Error Handler Configuration Action.ctl" Type="VI" URL="../Private/_Error Handler Configuration Action.ctl"/>
-		<Item Name="_Error Handler Configuration.ctl" Type="VI" URL="../Private/_Error Handler Configuration.ctl"/>
-		<Item Name="_Error Handling Configuration State.vi" Type="VI" URL="../Private/_Error Handling Configuration State.vi"/>
 		<Item Name="_Find.vi" Type="VI" URL="../Private/_Find.vi"/>
 		<Item Name="_Initialize.vi" Type="VI" URL="../Private/_Initialize.vi"/>
 		<Item Name="_Log.vi" Type="VI" URL="../Private/_Log.vi"/>
@@ -25,6 +22,7 @@
 		<Item Name="_Shutdown.vi" Type="VI" URL="../Private/_Shutdown.vi"/>
 		<Item Name="_Strip Whitespace.vi" Type="VI" URL="../Private/_Strip Whitespace.vi"/>
 		<Item Name="_Unregister.vi" Type="VI" URL="../Private/_Unregister.vi"/>
+		<Item Name="Error.lvlib" Type="Library" URL="../Private/Error/Error.lvlib"/>
 		<Item Name="File.lvlib" Type="Library" URL="../Private/File/File.lvlib"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
