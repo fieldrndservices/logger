@@ -61,7 +61,7 @@
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Catch Error.vi" Type="VI" URL="../Public/Utility/Catch Error.vi"/>
 			<Item Name="Create Message CSV.vi" Type="VI" URL="../Public/Utility/Create Message CSV.vi"/>
-			<Item Name="Create Temporary Log Folder.vi" Type="VI" URL="../Public/Utility/Create Temporary Log Folder.vi"/>
+			<Item Name="Create Temporary Root Folder.vi" Type="VI" URL="../Public/Utility/Create Temporary Root Folder.vi"/>
 			<Item Name="Disable Default File.vi" Type="VI" URL="../Public/Utility/Disable Default File.vi"/>
 			<Item Name="Mask Errors.vi" Type="VI" URL="../Public/Utility/Mask Errors.vi"/>
 		</Item>
