@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2015-07-25 11:00:40" Creator="cfield" Comments="" ID="e70b66e4fff2097bb5bde310e2cd9e2c">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2015-07-25 11:03:54" Creator="cfield" Comments="" ID="2784e1cdcb911230d3223f95d7618938">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.2.0.12</Library_Version>
+    <Library_Version>1.2.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\Package</Library_Output_Folder>
@@ -317,7 +317,7 @@
         <Path>..\src\Public\VI Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0C526D827C8C381BC122B5A54F4CD10D</GUID>
+      <GUID>3CEBC2B9E490CF526234BD6EABEC7581</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -492,7 +492,7 @@
         <Path>..\src\Public\Action-Status\Start.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B7545A0D9C1EE595CF8883C82F0A4631</GUID>
+      <GUID>6D38B968B41FAB9650B4CEBC7360D162</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -611,7 +611,7 @@
         <Path>..\src\Public\Configure\Configure File Size Limit.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8E9C755B172F25D8D1E18C2AFC5156C0</GUID>
+      <GUID>2ECE9EBFEF49DF8A8136403E6F95C4D3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -646,7 +646,7 @@
         <Path>..\src\Public\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>216AB098BA3562254DCBA875D17C42AC</GUID>
+      <GUID>D390B24B4B581D1A8F3C6C921EB6DF3F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -737,7 +737,7 @@
         <Path>..\src\Public\Utility\Create Temporary Root Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A1E9373008C0A3AD0D29E21900680E70</GUID>
+      <GUID>41C70147559E9ABE85650D3DAC3321A0</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -814,7 +814,7 @@
         <Path>..\src\Public\Controls\Tag.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4FFB8B9D0CAA5EC55D263068A1F9DC4C</GUID>
+      <GUID>9AD035566D0D4D70BEABCD82BF9A1188</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
