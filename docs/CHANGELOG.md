@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file, which is wr
 ### Added
 - Configuration to disable the calendar folder tree creation. A `YYYY/MM/DD` calendar folder tree is created in the Root folder, but this can be disabled using the `Configure Calendar Folder Tree` VI. 
 
+### Fixed
+- `Configure File` VI not also configuring the _Enable Calendar Folder Tree_ configuration.
+
 ## [1.2.0] - 2015-07-25
 ### Added
 - `Configure Root Folder` to the API. This VI configures the root folder for the file log separately from the file size limit.
