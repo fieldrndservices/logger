@@ -14,8 +14,10 @@
 	<Item Name="_Create Base Folder.vi" Type="VI" URL="../_Create Base Folder.vi"/>
 	<Item Name="_Create Calendar Folder Tree.vi" Type="VI" URL="../_Create Calendar Folder Tree.vi"/>
 	<Item Name="_Create ISO 8601 File Name.vi" Type="VI" URL="../_Create ISO 8601 File Name.vi"/>
+	<Item Name="_Get Oldest File.vi" Type="VI" URL="../_Get Oldest File.vi"/>
 	<Item Name="_Manager.vi" Type="VI" URL="../_Manager.vi"/>
 	<Item Name="_Open.vi" Type="VI" URL="../_Open.vi"/>
+	<Item Name="_Prune.vi" Type="VI" URL="../_Prune.vi"/>
 	<Item Name="_Write Header.vi" Type="VI" URL="../_Write Header.vi"/>
 	<Item Name="_Write.vi" Type="VI" URL="../_Write.vi"/>
 </Library>
