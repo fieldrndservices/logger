@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+## [1.3.2] - 2015-08-19
+### Fixed
+- File name not including the day in the ISO 8601 string.
+
 ## [1.3.1] - 2015-08-19
 ### Fixed
 - `Configure Maximum File Count` VI not included in palettes.
