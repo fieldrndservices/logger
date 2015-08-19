@@ -3,6 +3,8 @@
 All notable changes to this project will be documented in this file, which is written in plain text (ASCII) using the [Markdown](http://daringfireball.net/projects/markdown/syntax) lightweight markup language. This project adheres to [Semantic Versioning](http://semver.org). 
 
 ## [Unreleased][Unreleased]
+
+## [1.3.0] - 2015-08-19
 ### Added
 - Configuration to disable the calendar folder tree creation. A `YYYY/MM/DD` calendar folder tree is created in the Root folder, but this can be disabled using the `Configure Calendar Folder Tree` VI. 
 
