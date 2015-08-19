@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file, which is written in plain text (ASCII) using the [Markdown](http://daringfireball.net/projects/markdown/syntax) lightweight markup language. This project adheres to [Semantic Versioning](http://semver.org). 
 
+## [Unreleased][Unreleased]
+### Added
+- Configuration to disable the calendar folder tree creation. A `YYYY/MM/DD` calendar folder tree is created in the Root folder, but this can be disabled using the `Configure Calendar Folder Tree` VI. 
+
 ## [1.2.0] - 2015-07-25
 ### Added
 - `Configure Root Folder` to the API. This VI configures the root folder for the file log separately from the file size limit.
