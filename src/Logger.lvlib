@@ -44,7 +44,7 @@
 			<Item Name="Configure Calendar Folder Tree.vi" Type="VI" URL="../Public/Configure/Configure Calendar Folder Tree.vi"/>
 			<Item Name="Configure File.vi" Type="VI" URL="../Public/Configure/Configure File.vi"/>
 			<Item Name="Configure Level.vi" Type="VI" URL="../Public/Configure/Configure Level.vi"/>
-			<Item Name="Configure Maximum File Index.vi" Type="VI" URL="../Public/Configure/Configure Maximum File Index.vi"/>
+			<Item Name="Configure Maximum File Count.vi" Type="VI" URL="../Public/Configure/Configure Maximum File Count.vi"/>
 			<Item Name="Configure Maximum File Size.vi" Type="VI" URL="../Public/Configure/Configure Maximum File Size.vi"/>
 			<Item Name="Configure Root Folder.vi" Type="VI" URL="../Public/Configure/Configure Root Folder.vi"/>
 			<Item Name="Configure User-Defined Codes.vi" Type="VI" URL="../Public/Configure/Configure User-Defined Codes.vi"/>
