@@ -41,6 +41,7 @@
 			<Item Name="Warn.vi" Type="VI" URL="../Public/Action-Status/Warn.vi"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
+			<Item Name="Configure Calendar Folder Tree.vi" Type="VI" URL="../Public/Configure/Configure Calendar Folder Tree.vi"/>
 			<Item Name="Configure File Size Limit.vi" Type="VI" URL="../Public/Configure/Configure File Size Limit.vi"/>
 			<Item Name="Configure File.vi" Type="VI" URL="../Public/Configure/Configure File.vi"/>
 			<Item Name="Configure Level.vi" Type="VI" URL="../Public/Configure/Configure Level.vi"/>
