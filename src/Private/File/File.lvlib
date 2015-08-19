@@ -12,7 +12,7 @@
 	<Item Name="_Action.ctl" Type="VI" URL="../_Action.ctl"/>
 	<Item Name="_Close.vi" Type="VI" URL="../_Close.vi"/>
 	<Item Name="_Create Base Folder.vi" Type="VI" URL="../_Create Base Folder.vi"/>
-	<Item Name="_Create Calendar Folders.vi" Type="VI" URL="../_Create Calendar Folders.vi"/>
+	<Item Name="_Create Calendar Folder Tree.vi" Type="VI" URL="../_Create Calendar Folder Tree.vi"/>
 	<Item Name="_Create ISO 8601 File Name.vi" Type="VI" URL="../_Create ISO 8601 File Name.vi"/>
 	<Item Name="_Manager.vi" Type="VI" URL="../_Manager.vi"/>
 	<Item Name="_Open.vi" Type="VI" URL="../_Open.vi"/>
