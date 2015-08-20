@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+## [1.3.3] - 2015-08-20
+### Fixed
+- Pruning log files on start of file logging not working. The Maximum File Count configuration was not properly set.
+
 ## [1.3.2] - 2015-08-19
 ### Fixed
 - File name not including the day in the ISO 8601 string.
