@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+## [1.3.5] - 2015-09-08
+### Fixed
+- Files created on rollover with the calendar folder tree disabled removing four (4) folders as the base log folder. This was causing log files to appear within the wrong folder on rollover.
+
 ## [1.3.4] - 2015-08-29
 ### Changed
 - The _Source_ for logging an error to the VI that calls the `Catch Error.vi` instead of the error source. The error source is moved to the _Message_ column of the logging statement. The error source can be really long and cause alignment problems when looking at the statements in a text editor. This also helps indicate where the error occurred as it is not always apparent.
