@@ -3,6 +3,9 @@
 All notable changes to this project will be documented in this file, which is written in plain text (ASCII) using the [Markdown](http://daringfireball.net/projects/markdown/syntax) lightweight markup language. This project adheres to [Semantic Versioning](http://semver.org). 
 
 ## [Unreleased][Unreleased]
+### Added
+- `Configure File Extension` VI to set a file extension for log files other than `csv`.
+
 ### Changed
 - Execution priority for file logging to _Background (lowest)_.
 - The Preferred Execution System to _Standard_ for the file logging `Run` VI.

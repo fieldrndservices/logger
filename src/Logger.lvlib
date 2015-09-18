@@ -41,12 +41,13 @@
 			<Item Name="Warn.vi" Type="VI" URL="../Public/Action-Status/Warn.vi"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
-			<Item Name="Configure Calendar Folder Tree.vi" Type="VI" URL="../Public/Configure/Configure Calendar Folder Tree.vi"/>
+			<Item Name="Configure Calendar Folder Tree.vi" Type="VI" URL="/&lt;vilib&gt;/Field-RnD-Services/Logger/Public/Configure/Configure Calendar Folder Tree.vi"/>
+			<Item Name="Configure File Extension.vi" Type="VI" URL="../Public/Configure/Configure File Extension.vi"/>
 			<Item Name="Configure File.vi" Type="VI" URL="../Public/Configure/Configure File.vi"/>
 			<Item Name="Configure Level.vi" Type="VI" URL="../Public/Configure/Configure Level.vi"/>
-			<Item Name="Configure Maximum File Count.vi" Type="VI" URL="../Public/Configure/Configure Maximum File Count.vi"/>
-			<Item Name="Configure Maximum File Size.vi" Type="VI" URL="../Public/Configure/Configure Maximum File Size.vi"/>
-			<Item Name="Configure Root Folder.vi" Type="VI" URL="../Public/Configure/Configure Root Folder.vi"/>
+			<Item Name="Configure Maximum File Count.vi" Type="VI" URL="/&lt;vilib&gt;/Field-RnD-Services/Logger/Public/Configure/Configure Maximum File Count.vi"/>
+			<Item Name="Configure Maximum File Size.vi" Type="VI" URL="/&lt;vilib&gt;/Field-RnD-Services/Logger/Public/Configure/Configure Maximum File Size.vi"/>
+			<Item Name="Configure Root Folder.vi" Type="VI" URL="/&lt;vilib&gt;/Field-RnD-Services/Logger/Public/Configure/Configure Root Folder.vi"/>
 			<Item Name="Configure User-Defined Codes.vi" Type="VI" URL="../Public/Configure/Configure User-Defined Codes.vi"/>
 			<Item Name="Configure User-Defined Descriptions.vi" Type="VI" URL="../Public/Configure/Configure User-Defined Descriptions.vi"/>
 			<Item Name="Configure Verbosity.vi" Type="VI" URL="../Public/Configure/Configure Verbosity.vi"/>
