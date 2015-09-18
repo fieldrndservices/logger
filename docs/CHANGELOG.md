@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file, which is written in plain text (ASCII) using the [Markdown](http://daringfireball.net/projects/markdown/syntax) lightweight markup language. This project adheres to [Semantic Versioning](http://semver.org). 
 
 ## [Unreleased][Unreleased]
+### Changed
+- Execution priority for file logging to _Background (lowest)_.
+- The Preferred Execution System to _Standard_ for the file logging `Run` VI.
+- The message source for errors that are masked with the `Mask Error` VI to be the VI that calls the `Mask Error` VI, not the `Mask Error` VI itself, which is relatively useless diagnostically.
 
 ## [1.3.5] - 2015-09-08
 ### Fixed
