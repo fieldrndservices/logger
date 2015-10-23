@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2015-09-18 14:21:06" Creator="cfield" Comments="" ID="70594499e8f38645118a4d82e3271094">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2015-10-23 12:05:08" Creator="cfield" Comments="" ID="518b291eff1ccd8051067e3c7f125c5e">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.4.0.19</Library_Version>
+    <Library_Version>1.4.1.20</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\Package</Library_Output_Folder>
@@ -34,14 +34,13 @@
       <URL/>
       <Release_Notes># Field R&amp;D Services: Logger
 
-## [1.4.0] - 2015-09-18
+## [1.4.1] - 2015-10-23
 ### Added
-- `Configure File Extension` VI to set a file extension for log files other than `csv`.
+- `Write Period` control for running the file logging. This allows the user to balance frequency of logging statements to a file with CPU load and resources.
 
-### Changed
-- Execution priority for file logging to _Background (lowest)_.
-- The Preferred Execution System to _Standard_ for the file logging `Run` VI.
-- The message source for errors that are masked with the `Mask Error` VI to be the VI that calls the `Mask Error` VI, not the `Mask Error` VI itself, which is relatively useless diagnostically.
+### Fixed
+- File logging running continuously even if no logging statements are available. This would cause excessive CPU load and resource usage.
+- Shutdown procedure to ensure file logging is always stopped, the file listener is unregistered, and the file manager is shutdown properly.
 
 
 </Release_Notes>
@@ -322,7 +321,7 @@
         <Path>..\src\Public\VI Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C0EA1472F03AD327DB25A3E19A1C74D0</GUID>
+      <GUID>0E965A2F9F73985B23598D5B2369CA3D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -497,7 +496,7 @@
         <Path>..\src\Public\Action-Status\Start.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E59C28776E342507216D8DB5A3D89817</GUID>
+      <GUID>78B6B50B230D7970DE599534F11CF079</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -658,7 +657,7 @@
         <Path>..\src\Public\Configure\Configure File Extension.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DF5397CFFA829C4EDCB06B42E1BE9F74</GUID>
+      <GUID>3CF20E464235AE843B21D80AC93DC38D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -693,7 +692,7 @@
         <Path>..\src\Public\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>219245D274A220D2AA1103B851D5B93D</GUID>
+      <GUID>EAD0671F2D19085D4368DCCB2B47A64D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -784,7 +783,7 @@
         <Path>..\src\Public\Utility\Create Temporary Root Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F6745571288DD38802C0B378B338501</GUID>
+      <GUID>31F2A10DE280F29B0501E50AC0244DBF</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -861,7 +860,7 @@
         <Path>..\src\Public\Controls\Tag.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CE7900F746D3E0CFB53A82A3CB5E2286</GUID>
+      <GUID>5BAE61BB9C81D3DE350369B9BB6A384B</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
