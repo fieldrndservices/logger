@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+## [1.4.1] - 2015-10-23
+### Added
+- `Write Period` control for running the file logging. This allows the user to balance frequency of logging statements to a file with CPU load and resources.
+
+### Fixed
+- File logging running continuously even if no logging statements are available. This would cause excessive CPU load and resource usage.
+- Shutdown procedure to ensure file logging is always stopped, the file listener is unregistered, and the file manager is shutdown properly.
+
 ## [1.4.0] - 2015-09-18
 ### Added
 - `Configure File Extension` VI to set a file extension for log files other than `csv`.
