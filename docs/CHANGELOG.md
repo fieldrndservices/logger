@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+## [1.4.2] - 2015-12-11
+### Added
+- Surrounding double quotes to Comma-Separated Values (CSV) statements created from logging messages to properly escape commas in message text/descriptions. Message text/description can sometimes contain commas that do _not_ delimit a column. Commas inside the text can be interpreted as a new column by CSV decoders. Surrounding the text in double quotes is a common mechanism for indicating to decoders to escape commas or other column delimiters.
+
 ## [1.4.1] - 2015-10-23
 ### Added
 - `Write Period` control for running the file logging. This allows the user to balance frequency of logging statements to a file with CPU load and resources.
