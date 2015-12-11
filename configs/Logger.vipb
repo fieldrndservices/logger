@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2015-10-23 12:05:08" Creator="cfield" Comments="" ID="518b291eff1ccd8051067e3c7f125c5e">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2015-12-11 09:48:34" Creator="cfield" Comments="" ID="8f2029995fa230a930d5c0547577b6ae">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.4.1.20</Library_Version>
+    <Library_Version>1.4.2.21</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\Package</Library_Output_Folder>
@@ -34,15 +34,9 @@
       <URL/>
       <Release_Notes># Field R&amp;D Services: Logger
 
-## [1.4.1] - 2015-10-23
+## [1.4.2] - 2015-12-11
 ### Added
-- `Write Period` control for running the file logging. This allows the user to balance frequency of logging statements to a file with CPU load and resources.
-
-### Fixed
-- File logging running continuously even if no logging statements are available. This would cause excessive CPU load and resource usage.
-- Shutdown procedure to ensure file logging is always stopped, the file listener is unregistered, and the file manager is shutdown properly.
-
-
+- Surrounding double quotes to Comma-Separated Values (CSV) statements created from logging messages to properly escape commas in message text/descriptions. Message text/description can sometimes contain commas that do _not_ delimit a column. Commas inside the text can be interpreted as a new column by CSV decoders. Surrounding the text in double quotes is a common mechanism for indicating to decoders to escape commas or other column delimiters.
 </Release_Notes>
     </Description>
     <Destinations>
@@ -321,7 +315,7 @@
         <Path>..\src\Public\VI Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0E965A2F9F73985B23598D5B2369CA3D</GUID>
+      <GUID>90AF2674661DA94BC7573CFC079EC1EB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -496,7 +490,7 @@
         <Path>..\src\Public\Action-Status\Start.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>78B6B50B230D7970DE599534F11CF079</GUID>
+      <GUID>4D9E6D5BCDF60D9BA09BD93DA4121609</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -657,7 +651,7 @@
         <Path>..\src\Public\Configure\Configure File Extension.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3CF20E464235AE843B21D80AC93DC38D</GUID>
+      <GUID>7FC1A50E58143741F07DE7EED580B483</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -692,7 +686,7 @@
         <Path>..\src\Public\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EAD0671F2D19085D4368DCCB2B47A64D</GUID>
+      <GUID>18A9A083E6EDCF6721B2B99E0A225F67</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -783,7 +777,7 @@
         <Path>..\src\Public\Utility\Create Temporary Root Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>31F2A10DE280F29B0501E50AC0244DBF</GUID>
+      <GUID>959A9950A0A9AE7AB6C6A7968428960A</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -860,7 +854,7 @@
         <Path>..\src\Public\Controls\Tag.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5BAE61BB9C81D3DE350369B9BB6A384B</GUID>
+      <GUID>27937BBCA9866CF9983D6BF6F47D94AE</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
