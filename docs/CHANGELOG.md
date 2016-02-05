@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+## [1.4.3] - 2016-02-05
+### Changed
+- Re-entrant type from Shared to Pre-allocated. The Pre-allocated is better for Real-Time systems to reduce jitter.
+- Private Sub-VIs to inline. This provides a small improvement in performance that might be needed on Real-Time systems.
+- Logging Public VIs (WARN, DEBUG, ERROR, etc.) to inline. These are small, simple VIs that are used throughout an application. Inlining the VIs may improve performance.
+
 ## [1.4.2] - 2015-12-11
 ### Added
 - Surrounding double quotes to Comma-Separated Values (CSV) statements created from logging messages to properly escape commas in message text/descriptions. Message text/description can sometimes contain commas that do _not_ delimit a column. Commas inside the text can be interpreted as a new column by CSV decoders. Surrounding the text in double quotes is a common mechanism for indicating to decoders to escape commas or other column delimiters.
