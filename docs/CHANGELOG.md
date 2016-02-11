@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+## [1.4.4] - 2016-02-11
+### Fixed
+- _Source_ of messages. Since changing the logging VIs, (WARN, DEBUG, TRACE, etc.), to inline sub-VIs, the source of the logging statements was incorrect.
+
 ## [1.4.3] - 2016-02-05
 ### Changed
 - Re-entrant type from Shared to Pre-allocated. The Pre-allocated is better for Real-Time systems to reduce jitter.
