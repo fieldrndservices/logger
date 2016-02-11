@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2016-02-05 09:41:29" Creator="cfield" Comments="" ID="1b455f9e01a29aa451c9c4ec4101ed5d">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2016-02-11 10:12:30" Creator="cfield" Comments="" ID="b4b92b7e4d9ca0ac01bb3c48515027f2">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.4.3.22</Library_Version>
+    <Library_Version>1.4.4.23</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\Package</Library_Output_Folder>
@@ -34,13 +34,9 @@
       <URL/>
       <Release_Notes># Field R&amp;D Services: Logger
 
-## [1.4.3] - 2016-02-05
-### Changed
-- Re-entrant type from Shared to Pre-allocated. The Pre-allocated is better for Real-Time systems to reduce jitter.
-- Private Sub-VIs to inline. This provides a small improvement in performance that might be needed on Real-Time systems.
-- Logging Public VIs (WARN, DEBUG, ERROR, etc.) to inline. These are small, simple VIs that are used throughout an application. Inlining the VIs may improve performance.
-- Palette location from _Addons_ to _User Libraries_.
-</Release_Notes>
+## [1.4.4] - 2016-02-11
+### Fixed
+- _Source_ of messages. Since changing the logging VIs, (WARN, DEBUG, TRACE, etc.), to inline sub-VIs, the source of the logging statements was incorrect.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -318,7 +314,7 @@
         <Path>..\src\Public\VI Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>782C7F1424CDF7852BC91217DF21973F</GUID>
+      <GUID>85C8B519DF09859CA0DA44BBD0107431</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -493,7 +489,7 @@
         <Path>..\src\Public\Action-Status\Start.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F9591D35A828DE4B462B12FF79F56F7F</GUID>
+      <GUID>322054F37796F961BCFBD865CB77BD55</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -654,7 +650,7 @@
         <Path>..\src\Public\Configure\Configure File Extension.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D15F3C90F821B8C21EFE8E4F31EC2DAC</GUID>
+      <GUID>44021FAEF5953C8BA38EBAB5F626BBA1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -689,7 +685,7 @@
         <Path>..\src\Public\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F26D4664D95CC0867CFDAB1B86A13B8</GUID>
+      <GUID>3527CD4D7CF8866B8E5C15916B33A333</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -780,7 +776,7 @@
         <Path>..\src\Public\Utility\Create Temporary Root Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>20E4A2D1A8CD0088846D2BF12DB58689</GUID>
+      <GUID>B08371C9ACA007AC93E98EF33D635F4B</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -857,7 +853,7 @@
         <Path>..\src\Public\Controls\Tag.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F2D64A4B1C417E30115EC0D95E88D9A2</GUID>
+      <GUID>E067107D33DCAA035F1DB5C4394DDA53</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
