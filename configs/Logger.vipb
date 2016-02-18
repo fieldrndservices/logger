@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2016-02-11 10:12:30" Creator="cfield" Comments="" ID="b4b92b7e4d9ca0ac01bb3c48515027f2">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2016-02-18 16:01:04" Creator="cfield" Comments="" ID="477ca5b030d747b5d166a2e312dfe0c9">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.4.4.23</Library_Version>
+    <Library_Version>1.5.0.24</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\Package</Library_Output_Folder>
@@ -34,9 +34,9 @@
       <URL/>
       <Release_Notes># Field R&amp;D Services: Logger
 
-## [1.4.4] - 2016-02-11
-### Fixed
-- _Source_ of messages. Since changing the logging VIs, (WARN, DEBUG, TRACE, etc.), to inline sub-VIs, the source of the logging statements was incorrect.</Release_Notes>
+## [1.5.0] - 2016-02-18
+### Added
+- _Clear_ control to the `Catch Error` VI. This indicates whether to clear the error on "catching" it or to pass the error along the Error Out indicator.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -314,7 +314,7 @@
         <Path>..\src\Public\VI Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>85C8B519DF09859CA0DA44BBD0107431</GUID>
+      <GUID>C33AF5DC733AA4F3A7BA80596E52BDA3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -489,7 +489,7 @@
         <Path>..\src\Public\Action-Status\Start.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>322054F37796F961BCFBD865CB77BD55</GUID>
+      <GUID>C6811DC92C88C1B6A0F70AEB4F4219CE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -650,7 +650,7 @@
         <Path>..\src\Public\Configure\Configure File Extension.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>44021FAEF5953C8BA38EBAB5F626BBA1</GUID>
+      <GUID>E561128E9A6D73C4025EE1F21A7CDF2A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -685,7 +685,7 @@
         <Path>..\src\Public\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3527CD4D7CF8866B8E5C15916B33A333</GUID>
+      <GUID>D308FA09046D9485A18C6EA786E5E6B2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -776,7 +776,7 @@
         <Path>..\src\Public\Utility\Create Temporary Root Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B08371C9ACA007AC93E98EF33D635F4B</GUID>
+      <GUID>4B8E69DC243BA4F4111FA4F6CA685C7F</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -853,7 +853,7 @@
         <Path>..\src\Public\Controls\Tag.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E067107D33DCAA035F1DB5C4394DDA53</GUID>
+      <GUID>4FFC5BC8107E46E6B0B2AE97C74DF452</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
