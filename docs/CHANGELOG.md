@@ -7,6 +7,10 @@ All notable changes to this project will be documented in this file, which is wr
 ## [1.5.0] - 2016-02-18
 ### Added
 - _Clear_ control to the `Catch Error` VI. This indicates whether to clear the error on "catching" it or to pass the error along the Error Out indicator.
+- _Run_ control to the `Start` VI. This is TRUE by default. If TRUE, then the `Run` VI is started and executed using the VI Server, i.e. in the background. If FALSE, then the `Run` VI must be explicitly called or placed in the block diagram of the "main" VI of the application. If already using the `Start` VI, everything should work as before.
+
+### Changed
+- Running the logger explicitly, i.e. placing the `Run` VI on the block diagram, requires a call to the `Start` VI before execution.
 
 ## [1.4.4] - 2016-02-11
 ### Fixed
