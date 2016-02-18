@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+## [1.5.0] - 2016-02-18
+### Added
+- _Clear_ control to the `Catch Error` VI. This indicates whether to clear the error on "catching" it or to pass the error along the Error Out indicator.
+
 ## [1.4.4] - 2016-02-11
 ### Fixed
 - _Source_ of messages. Since changing the logging VIs, (WARN, DEBUG, TRACE, etc.), to inline sub-VIs, the source of the logging statements was incorrect.
