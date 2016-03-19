@@ -61,58 +61,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Library" Type="Packed Library">
-				<Property Name="Bld_buildCacheID" Type="Str">{37807E4F-E373-49B8-AB1C-DAEF70D856EB}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Library</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Library</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{8876A66C-5308-4739-95BE-DE183F21D6FC}</Property>
-				<Property Name="Bld_version.minor" Type="Int">7</Property>
-				<Property Name="Destination[0].destName" Type="Str">Logger.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Library/NI_AB_PROJECTNAME.lvlibp</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Library</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{23B02674-ADFC-45FE-9FD6-4704C4C8EA0D}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Logger.lvlib</Property>
-				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">Field R&amp;D Services, LLC</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">An application logging library modeled after the Log4j and various programming language flavors for LabVIEW.</Property>
-				<Property Name="TgtF_internalName" Type="Str">Logger</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 Field R&amp;D Services, LLC</Property>
-				<Property Name="TgtF_productName" Type="Str">Christopher Field's Logging and Error Handling Library</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{607DE7F7-BE15-45E1-B230-67972CA1E61E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Logger.lvlibp</Property>
-			</Item>
-			<Item Name="Source" Type="Zip File">
-				<Property Name="Absolute[0]" Type="Bool">false</Property>
-				<Property Name="BuildName" Type="Str">Source</Property>
-				<Property Name="Comments" Type="Str"></Property>
-				<Property Name="DestinationID[0]" Type="Str">{E808264A-ED1C-4E6B-A1CE-EC57989006A0}</Property>
-				<Property Name="DestinationItemCount" Type="Int">1</Property>
-				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
-				<Property Name="IncludedItemCount" Type="Int">1</Property>
-				<Property Name="IncludedItems[0]" Type="Ref">/My Computer</Property>
-				<Property Name="IncludeProject" Type="Bool">true</Property>
-				<Property Name="Path[0]" Type="Path">../../builds/src/LV-Logger.zip</Property>
-				<Property Name="ZipBase" Type="Str">NI_zipbasevirtual</Property>
-			</Item>
-		</Item>
+		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
