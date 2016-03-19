@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+## [1.5.1] - 2016-03-19
+### Removed
+- Leading underscore from private VI names.
+
 ## [1.5.0] - 2016-02-18
 ### Added
 - _Clear_ control to the `Catch Error` VI. This indicates whether to clear the error on "catching" it or to pass the error along the Error Out indicator.
