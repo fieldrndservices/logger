@@ -10,20 +10,20 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="_Control Action.ctl" Type="VI" URL="../Private/_Control Action.ctl"/>
-		<Item Name="_Control State.vi" Type="VI" URL="../Private/_Control State.vi"/>
-		<Item Name="_Create Level String.vi" Type="VI" URL="../Private/_Create Level String.vi"/>
-		<Item Name="_Find.vi" Type="VI" URL="../Private/_Find.vi"/>
-		<Item Name="_Initialize.vi" Type="VI" URL="../Private/_Initialize.vi"/>
-		<Item Name="_Log.vi" Type="VI" URL="../Private/_Log.vi"/>
-		<Item Name="_Logger Action.ctl" Type="VI" URL="../Private/_Logger Action.ctl"/>
-		<Item Name="_Logger.vi" Type="VI" URL="../Private/_Logger.vi"/>
-		<Item Name="_Register.vi" Type="VI" URL="../Private/_Register.vi"/>
-		<Item Name="_Shutdown.vi" Type="VI" URL="../Private/_Shutdown.vi"/>
-		<Item Name="_Strip Whitespace.vi" Type="VI" URL="../Private/_Strip Whitespace.vi"/>
-		<Item Name="_Unregister.vi" Type="VI" URL="../Private/_Unregister.vi"/>
+		<Item Name="Action.ctl" Type="VI" URL="../Private/Action.ctl"/>
+		<Item Name="Clear Listeners.vi" Type="VI" URL="../Private/Clear Listeners.vi"/>
+		<Item Name="Control Action.ctl" Type="VI" URL="../Private/Control Action.ctl"/>
+		<Item Name="Control State.vi" Type="VI" URL="../Private/Control State.vi"/>
+		<Item Name="Create Level String.vi" Type="VI" URL="../Private/Create Level String.vi"/>
 		<Item Name="Error.lvlib" Type="Library" URL="../Private/Error/Error.lvlib"/>
 		<Item Name="File.lvlib" Type="Library" URL="../Private/File/File.lvlib"/>
+		<Item Name="Find.vi" Type="VI" URL="../Private/Find.vi"/>
+		<Item Name="Log.vi" Type="VI" URL="../Private/Log.vi"/>
+		<Item Name="Logger.vi" Type="VI" URL="../Private/Logger.vi"/>
+		<Item Name="Register.vi" Type="VI" URL="../Private/Register.vi"/>
+		<Item Name="Release.vi" Type="VI" URL="../Private/Release.vi"/>
+		<Item Name="Strip Whitespace.vi" Type="VI" URL="../Private/Strip Whitespace.vi"/>
+		<Item Name="Unregister.vi" Type="VI" URL="../Private/Unregister.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -70,6 +70,5 @@
 		</Item>
 		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
 		<Item Name="Shutdown.vi" Type="VI" URL="../Public/Shutdown.vi"/>
-		<Item Name="VI Tree.vi" Type="VI" URL="../Public/VI Tree.vi"/>
 	</Item>
 </Library>
