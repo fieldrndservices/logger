@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2016-03-19 11:43:35" Creator="cfield" Comments="" ID="19ec3cc2e9c17ab35e015ebb50be4c81">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2016-03-27 12:24:05" Creator="cfield" Comments="" ID="134f8a3fd1d20f8bd92d1f71026521c1">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.5.1.27</Library_Version>
+    <Library_Version>1.6.0.28</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\Package</Library_Output_Folder>
@@ -34,9 +34,17 @@
       <URL/>
       <Release_Notes># Field R&amp;D Services: Logger
 
-## [1.5.1] - 2016-03-19
-### Removed
-- Leading underscore from private VI names.</Release_Notes>
+## [1.6.0] - 2016-03-27
+### Added
+- Buffer-based implementation for creation of bulk CSV strings to write to default log file for improved performance on real-time systems.
+- The optional `Maximum Messages` control to initialization. This places an upper bound on the number of statements, or messages, any one listener can save. A `-1` indicates using a memory-limited bounds. A non-zero, positive number limits the amount of memory used by all listeners. This is useful for real-time and embedded systems.
+
+### Changed
+- The `Start` VI to `File Start` to eliminate confusion about its function and usage.
+- The `Stop` VI to `File Stop` to eliminate confusion about its function and usage.
+- The `Run` VI to `File Run` to eliminate confusion about its function and usage.
+- The `Run` control to `Run in Background` to improve the documentation and readability of the control for the `File Run` VI.
+- The `Logger` private VI to `Manager` to follow naming convention of other Functional Global Variables (FGVs).</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -300,21 +308,7 @@
         <Path>..\src\Public\Shutdown.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>VI Tree.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\Public\VI Tree.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>641FB7851148A0833A13B66CF340256B</GUID>
+      <GUID>240B71B8D8BA8E9D1E527F0291BD2296</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -450,35 +444,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Stop.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\Public\Action-Status\Stop.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Run.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\Public\Action-Status\Run.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Start.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>File Start.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -486,10 +452,38 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Action-Status\Start.vi</Path>
+        <Path>..\src\Public\Action-Status\File Start.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7CB25FD3E1529590DC5AC147D19976D7</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>File Stop.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Public\Action-Status\File Stop.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>File Run.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Public\Action-Status\File Run.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>EABED9C58C1CC6C236B836D22114CDA1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -650,7 +644,7 @@
         <Path>..\src\Public\Configure\Configure File Extension.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C132E718267D5C9B314AC88A637C92E9</GUID>
+      <GUID>F36F9A073F09A0CB7EEF67D440ED0822</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -685,7 +679,7 @@
         <Path>..\src\Public\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6192A7920C303D542F8510A1F2BCE5DB</GUID>
+      <GUID>76CD0B2F2C1B9BD45667430BA0C170E9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -776,7 +770,7 @@
         <Path>..\src\Public\Utility\Create Temporary Root Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A3FB8CD6B4E6790BE491259806424F9</GUID>
+      <GUID>50DDD6CDDBBF72C222FB93ECD2BE4C1E</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -853,7 +847,7 @@
         <Path>..\src\Public\Controls\Tag.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5634A4E5AB02526C82026E38E6CEC6B7</GUID>
+      <GUID>B16F788A9714FEF111699D61235BFE43</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
