@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+## [1.6.0] - 2016-03-27
+### Added
+- Buffer-based implementation for creation of bulk CSV strings to write to default log file for improved performance on real-time systems.
+- The optional `Maximum Messages` control to initialization. This places an upper bound on the number of statements, or messages, any one listener can save. A `-1` indicates using a memory-limited bounds. A non-zero, positive number limits the amount of memory used by all listeners. This is useful for real-time and embedded systems.
+
+### Changed
+- The `Start` VI to `File Start` to eliminate confusion about its function and usage.
+- The `Stop` VI to `File Stop` to eliminate confusion about its function and usage.
+- The `Run` VI to `File Run` to eliminate confusion about its function and usage.
+- The `Run` control to `Run in Background` to improve the documentation and readability of the control for the `File Run` VI.
+
 ## [1.5.1] - 2016-03-19
 ### Removed
 - Leading underscore from private VI names.
