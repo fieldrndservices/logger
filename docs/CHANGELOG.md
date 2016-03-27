@@ -14,6 +14,7 @@ All notable changes to this project will be documented in this file, which is wr
 - The `Stop` VI to `File Stop` to eliminate confusion about its function and usage.
 - The `Run` VI to `File Run` to eliminate confusion about its function and usage.
 - The `Run` control to `Run in Background` to improve the documentation and readability of the control for the `File Run` VI.
+- The `Logger` private VI to `Manager` to follow naming convention of other Functional Global Variables (FGVs).
 
 ## [1.5.1] - 2016-03-19
 ### Removed
