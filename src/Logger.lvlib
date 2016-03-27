@@ -31,11 +31,11 @@
 			<Item Name="Debug.vi" Type="VI" URL="../Public/Action-Status/Debug.vi"/>
 			<Item Name="Error.vi" Type="VI" URL="../Public/Action-Status/Error.vi"/>
 			<Item Name="Fatal.vi" Type="VI" URL="../Public/Action-Status/Fatal.vi"/>
+			<Item Name="File Run.vi" Type="VI" URL="../Public/Action-Status/File Run.vi"/>
+			<Item Name="File Start.vi" Type="VI" URL="../Public/Action-Status/File Start.vi"/>
+			<Item Name="File Stop.vi" Type="VI" URL="../Public/Action-Status/File Stop.vi"/>
 			<Item Name="Info.vi" Type="VI" URL="../Public/Action-Status/Info.vi"/>
 			<Item Name="Register Listener.vi" Type="VI" URL="../Public/Action-Status/Register Listener.vi"/>
-			<Item Name="Run.vi" Type="VI" URL="../Public/Action-Status/Run.vi"/>
-			<Item Name="Start.vi" Type="VI" URL="../Public/Action-Status/Start.vi"/>
-			<Item Name="Stop.vi" Type="VI" URL="../Public/Action-Status/Stop.vi"/>
 			<Item Name="Trace.vi" Type="VI" URL="../Public/Action-Status/Trace.vi"/>
 			<Item Name="Unregister Listener.vi" Type="VI" URL="../Public/Action-Status/Unregister Listener.vi"/>
 			<Item Name="Warn.vi" Type="VI" URL="../Public/Action-Status/Warn.vi"/>
