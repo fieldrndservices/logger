@@ -12,6 +12,7 @@
 	<Item Name="Action.ctl" Type="VI" URL="../Action.ctl"/>
 	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
 	<Item Name="Create Base Folder.vi" Type="VI" URL="../Create Base Folder.vi"/>
+	<Item Name="Create Bulk CSV String.vi" Type="VI" URL="../Create Bulk CSV String.vi"/>
 	<Item Name="Create Calendar Folder Tree.vi" Type="VI" URL="../Create Calendar Folder Tree.vi"/>
 	<Item Name="Create ISO 8601 File Name.vi" Type="VI" URL="../Create ISO 8601 File Name.vi"/>
 	<Item Name="Get Oldest File.vi" Type="VI" URL="../Get Oldest File.vi"/>
