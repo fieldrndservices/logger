@@ -19,7 +19,7 @@
 		<Item Name="File.lvlib" Type="Library" URL="../Private/File/File.lvlib"/>
 		<Item Name="Find.vi" Type="VI" URL="../Private/Find.vi"/>
 		<Item Name="Log.vi" Type="VI" URL="../Private/Log.vi"/>
-		<Item Name="Logger.vi" Type="VI" URL="../Private/Logger.vi"/>
+		<Item Name="Manager.vi" Type="VI" URL="../Private/Manager.vi"/>
 		<Item Name="Register.vi" Type="VI" URL="../Private/Register.vi"/>
 		<Item Name="Release.vi" Type="VI" URL="../Private/Release.vi"/>
 		<Item Name="Strip Whitespace.vi" Type="VI" URL="../Private/Strip Whitespace.vi"/>
