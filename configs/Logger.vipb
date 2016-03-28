@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2016-03-27 12:27:13" Creator="cfield" Comments="" ID="ebea9a62d8a9449a30bf731775e8aace">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2016-03-28 09:47:15" Creator="cfield" Comments="" ID="a98a07067e9f8aa5d00c11c719e48ad9">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.6.0.28</Library_Version>
+    <Library_Version>1.6.1.29</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\Package</Library_Output_Folder>
@@ -34,17 +34,12 @@
       <URL/>
       <Release_Notes># Field R&amp;D Services: Logger
 
-## [1.6.0] - 2016-03-27
+## [1.6.1] - 2016-03-28
 ### Added
-- Buffer-based implementation for creation of bulk CSV strings to write to default log file for improved performance on real-time systems.
-- The optional `Maximum Messages` control to initialization. This places an upper bound on the number of statements, or messages, any one listener can save. A `-1` indicates using a memory-limited bounds. A non-zero, positive number limits the amount of memory used by all listeners. This is useful for real-time and embedded systems.
+- Double quotes to buffer-based bulk CSV string creation.
 
-### Changed
-- The `Start` VI to `File Start` to eliminate confusion about its function and usage.
-- The `Stop` VI to `File Stop` to eliminate confusion about its function and usage.
-- The `Run` VI to `File Run` to eliminate confusion about its function and usage.
-- The `Run` control to `Run in Background` to improve the documentation and readability of the control for the `File Run` VI.
-- The `Logger` private VI to `Manager` to follow naming convention of other Functional Global Variables (FGVs).</Release_Notes>
+### Removed
+- The `Format into String` primitive for surrounding the message component of a logging statement with double quotes.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -308,7 +303,7 @@
         <Path>..\src\Public\Shutdown.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>39CA967DD0549AE4E16FE7B02790B21D</GUID>
+      <GUID>20CB36E268852B6EB8C6DDD7B1489C4B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -483,7 +478,7 @@
         <Path>..\src\Public\Action-Status\File Run.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C0517731F7BFE49ED8F343B95DE36587</GUID>
+      <GUID>EBA541FDC0406DEFFDEA06D3F140FB6A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -644,7 +639,7 @@
         <Path>..\src\Public\Configure\Configure File Extension.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A17C4708BA370318A7FFF66A43DBABEF</GUID>
+      <GUID>55E44EFCAA8FB21A02BAA8C9EB341434</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -679,7 +674,7 @@
         <Path>..\src\Public\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F6C55EC5C8259CAF8D33C805DCD46F6</GUID>
+      <GUID>FDD2A2E7113804CF060B3DE937925E5B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -770,7 +765,7 @@
         <Path>..\src\Public\Utility\Create Temporary Root Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D694F0F9E041ADE1FF258596ABACB55D</GUID>
+      <GUID>23A186C5A03DEACB2EE3A95B5833B310</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -847,7 +842,7 @@
         <Path>..\src\Public\Controls\Tag.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5CCCDC805C9F7EC16043CE2F3966711B</GUID>
+      <GUID>16AB8490EEB4A954B5A70AB1ACD88697</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
