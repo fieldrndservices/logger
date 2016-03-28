@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file, which is written in plain text (ASCII) using the [Markdown](http://daringfireball.net/projects/markdown/syntax) lightweight markup language. This project adheres to [Semantic Versioning](http://semver.org). 
 
 ## [Unreleased][Unreleased]
+### Added
+- Double quotes to buffer-based bulk CSV string creation.
+
+### Removed
+- The `Format into String` primitive for surrounding the message component of a logging statement with double quotes.
 
 ## [1.6.0] - 2016-03-27
 ### Added
