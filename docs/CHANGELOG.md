@@ -3,6 +3,8 @@
 All notable changes to this project will be documented in this file, which is written in plain text (ASCII) using the [Markdown](http://daringfireball.net/projects/markdown/syntax) lightweight markup language. This project adheres to [Semantic Versioning](http://semver.org). 
 
 ## [Unreleased][Unreleased]
+
+## [1.6.1] - 2016-03-28
 ### Added
 - Double quotes to buffer-based bulk CSV string creation.
 
