@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+## [1.6.2] - 2016-04-12
+### Changed
+- The bulk CSV buffer is moved to the File Manager Functional Global Variable (FGV) instead of its own internal FGV. This ensures the memory is only allocated once and it is allocated at the initialization of the File logging, not "lazily" allocated. This should improve performance on Real-Time targets.
+
 ## [1.6.1] - 2016-03-28
 ### Added
 - Double quotes to buffer-based bulk CSV string creation.
