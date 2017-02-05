@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-02-05 17:34:43" Creator="cfield" Comments="" ID="f4463e7542dfe6597e232a07e3dd812a">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-02-05 18:45:31" Creator="cfield" Comments="" ID="5f69178023c2b218baed057b0223099e">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
     <Library_Version>1.6.3.30</Library_Version>
@@ -132,7 +132,7 @@
         <Path>Public/Action-Status/Action-Status.mnu</Path>
       </Exclusions>
     </Source_Files>
-    <License_Agreement_Filepath/>
+    <License_Agreement_Filepath>..\docs\LICENSE.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -300,7 +300,7 @@
         <Path>..\src\Public\Shutdown.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>25C0C676CC11C149AA52E0A1C3BB587A</GUID>
+      <GUID>546407AD8614EE4C39F9DF831C19B4D5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -475,7 +475,7 @@
         <Path>..\src\Public\Action-Status\File Run.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F4D82E1E80DDCF3B5994C7221D612F7</GUID>
+      <GUID>29329E3DF399888E91A60F2EC21E5566</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -636,7 +636,7 @@
         <Path>..\src\Public\Configure\Configure File Extension.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>90E778475B02D0AAD6046CE9887B8A6F</GUID>
+      <GUID>EB576A96EAECD5A706FD76CF70B96B80</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -671,7 +671,7 @@
         <Path>..\src\Public\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3BACDEF3BBB8C6FCF09EDF0D099051F9</GUID>
+      <GUID>D7136D14A235FCB5C9713A232419B9A4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -762,7 +762,7 @@
         <Path>..\src\Public\Utility\Create Temporary Root Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FD97A8652B0A48276926BC009290B01B</GUID>
+      <GUID>2A8A55037928E5C29FCFD95269A0AFE7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
