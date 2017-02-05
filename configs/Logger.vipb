@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-02-05 18:45:31" Creator="cfield" Comments="" ID="5f69178023c2b218baed057b0223099e">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-02-05 18:56:39" Creator="cfield" Comments="" ID="2ab77ffdc09a12739055923b3ddb8837">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.6.3.30</Library_Version>
+    <Library_Version>1.6.3.31</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\Package</Library_Output_Folder>
@@ -34,9 +34,17 @@
       <URL/>
       <Release_Notes># Field R&amp;D Services: Logger
 
-## [1.6.2] - 2016-04-12
+## [1.6.3] - 20167-02-05
+
+### Added
+
+- Context help descriptions for all public VIs.
+- Field R&amp;D Services category and icon for a proper namespace and organization.
+- 3-clause BSB license.
+
 ### Changed
-- The bulk CSV buffer is moved to the File Manager Functional Global Variable (FGV) instead of its own internal FGV. This ensures the memory is only allocated once and it is allocated at the initialization of the File logging, not "lazily" allocated. This should improve performance on Real-Time targets.</Release_Notes>
+
+- Functions palette location from `User Libraries` to `Add-ons`.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -300,7 +308,7 @@
         <Path>..\src\Public\Shutdown.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>546407AD8614EE4C39F9DF831C19B4D5</GUID>
+      <GUID>3425C565A43EF37356DC46CA88E7FD1F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -475,7 +483,7 @@
         <Path>..\src\Public\Action-Status\File Run.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>29329E3DF399888E91A60F2EC21E5566</GUID>
+      <GUID>2F945D5F411AF04B08F7AC99B31FFEF4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -636,7 +644,7 @@
         <Path>..\src\Public\Configure\Configure File Extension.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EB576A96EAECD5A706FD76CF70B96B80</GUID>
+      <GUID>D177F021D778BB45199F4829EB847739</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -671,7 +679,7 @@
         <Path>..\src\Public\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D7136D14A235FCB5C9713A232419B9A4</GUID>
+      <GUID>E1D32D96FB8C4EF60958D6A579505E73</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -762,7 +770,7 @@
         <Path>..\src\Public\Utility\Create Temporary Root Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2A8A55037928E5C29FCFD95269A0AFE7</GUID>
+      <GUID>61B1E4D652B21AEE9CF120DD4934E42C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
