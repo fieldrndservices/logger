@@ -4,9 +4,13 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+## [1.6.3] - 20167-02-05
+
 ### Added
 
+- Context help descriptions for all public VIs.
 - Field R&D Services category and icon for a proper namespace and organization.
+- 3-clause BSB license.
 
 ### Changed
 
