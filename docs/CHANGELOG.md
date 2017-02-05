@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
-## [1.6.3] - 20167-02-05
+## [1.6.3] - 2017-02-05
 
 ### Added
 
