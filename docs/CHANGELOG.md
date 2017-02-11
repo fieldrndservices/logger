@@ -14,6 +14,7 @@ All notable changes to this project will be documented in this file, which is wr
 - VI icons to include glyphs to increase readability of VIs in block diagrams.
 - Control icons to include glyphs to increase readability of Controls in block diagrams.
 - The `Simple.vi` example to demonstrate more of the features and provide more documentation.
+- The `Message.ctl` to `Statement.ctl` for consistency with documentation.
 
 ### Fixed
 
