@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+### Fixed
+
+- Formatting of `License.txt` file to display better in the VI Package Manager interface.
+
 ## [1.6.3] - 2017-02-05
 
 ### Added
