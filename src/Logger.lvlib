@@ -54,8 +54,8 @@
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Configuration.ctl" Type="VI" URL="../Public/Controls/Configuration.ctl"/>
-			<Item Name="Message.ctl" Type="VI" URL="../Public/Controls/Message.ctl"/>
 			<Item Name="Severity.ctl" Type="VI" URL="../Public/Controls/Severity.ctl"/>
+			<Item Name="Statement.ctl" Type="VI" URL="../Public/Controls/Statement.ctl"/>
 			<Item Name="Tag.ctl" Type="VI" URL="../Public/Controls/Tag.ctl"/>
 		</Item>
 		<Item Name="Data" Type="Folder">
