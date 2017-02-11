@@ -4,9 +4,15 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+### Added
+
+- More information to context help documentation.
+- More comments to the `Simple.vi` example.
+
 ### Changed
 
 - VI icons to include glyphs to increase readability of VIs in block diagrams.
+- Control icons to include glyphs to increase readability of Controls in block diagrams.
 - The `Simple.vi` example to demonstrate more of the features and provide more documentation.
 
 ### Fixed
