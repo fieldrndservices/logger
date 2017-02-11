@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+### Changed
+
+- VI icons to include glyphs to increase readability of VIs in block diagrams.
+- The `Simple.vi` example to demonstrate more of the features and provide more documentation.
+
 ### Fixed
 
 - Formatting of `License.txt` file to display better in the VI Package Manager interface.
