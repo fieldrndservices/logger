@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-02-12 16:27:44" Creator="cfield" Comments="" ID="1938d4f2202b72fe4d6c4cec9d8c63a7">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-02-12 16:41:45" Creator="cfield" Comments="" ID="700448f98135427e7277470b37d2555e">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.7.0.38</Library_Version>
+    <Library_Version>1.7.0.40</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\Package</Library_Output_Folder>
@@ -122,14 +122,14 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Examples</Path>
-        <Destination>1</Destination>
+        <Path>Help/Logger.chm</Path>
+        <Destination>4</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Help/Logger.chm</Path>
-        <Destination>4</Destination>
+        <Path>Examples/Simple.vi</Path>
+        <Destination>1</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -414,7 +414,7 @@
         <Path>..\src\Logger\Public\Shutdown.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D46C3F487E6CC2E02F8A5E2B8E061BE8</GUID>
+      <GUID>3BDA34967BF923BC3A2C9269853E4032</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -589,7 +589,7 @@
         <Path>..\src\Logger\Public\Action-Status\File Run.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC32E862521DAB57B6481B58C95463E1</GUID>
+      <GUID>4B9465133C66C716E52EC604384B831E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -750,7 +750,7 @@
         <Path>..\src\Logger\Public\Configure\Configure File Extension.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CA2006EDA0CA8FF1A4ED4AC8FDD5C554</GUID>
+      <GUID>CC9880D5CCF8599398F83B10014A79B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -785,7 +785,7 @@
         <Path>..\src\Logger\Public\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FC5CC54692E329EA81285985DDE2274C</GUID>
+      <GUID>CC83C3DAF9D70959CB1E2FDA501A9FF1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -862,7 +862,7 @@
         <Path>..\src\Logger\Public\Utility\Create Temporary Root Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3E501617CA8223F12B75672C263DCFBD</GUID>
+      <GUID>9EE10091BC0B9D22C9D2A10D49EE4AF4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
