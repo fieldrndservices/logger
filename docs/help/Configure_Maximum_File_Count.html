@@ -1,0 +1,44 @@
+<HTML>
+<HEAD>
+<TITLE>Logger.lvlib:Configure Maximum File Count.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="Logger.lvlib:Configure Maximum File Count.vi"></A><H2>Configure Maximum File Count</H2>
+<P>Sets the maximum number of log files to keep on disk.</P>
+<P>At the start of file logging, using the File Start VI, the number of on-disk log files at the configured root folder is inspected. If the number is greater than this value, then the oldest log file is deleted. During a rollover event, a similar check and deletion is conducted. This is generally known as &quot;pruning&quot;. If the file count is zero (0), then no pruning is ever conducted.</P>
+<P><IMG SRC="images/Logger_lvlib_Configure_Maximum_File_Countc.png" ALT="Logger.lvlib:Configure Maximum File Count.vi"></P>
+<HR>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<P><B>Error In</B> describes error conditions that occur before this node runs. This input provides standard error in functionality.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<P><B>Maximum</B> is the number of log files to keep on-disk before deleting the oldest log file. A zero (0) indicates no log files will ever be deleted.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<P><B>Error Out</B> contains error information. This output provides standard error out functionality.
+</TD>
+</TR>
+</Table>
+</BODY>
+</HTML>

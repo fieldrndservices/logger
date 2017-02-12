@@ -1,0 +1,44 @@
+<HTML>
+<HEAD>
+<TITLE>Logger.lvlib:Configure Level.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="Logger.lvlib:Configure Level.vi"></A><H2>Configure Level</H2>
+<P>Sets the global level for all listeners.</P>
+<P>The higher the value, the more logging statements that are sent to listeners. Generally, a level of zero (0) disables all logging statements and a level of seven (7) enables all logging statements. Any logging statement with a level less than or equal to the global level is sent to all listeners. Logging statements are tagged as one of the following: (1) FATAL, (2) ERROR, (3) WARN, (4) INFO, (5) DEBUG, and (6) TRACE. So, if a level of 4 is used, then all logging statements tagged as FATAL, ERROR, WARN, or INFO are sent to listeners, where one of the listeners is the default log file.</P>
+<P><IMG SRC="images/Logger_lvlib_Configure_Levelc.png" ALT="Logger.lvlib:Configure Level.vi"></P>
+<HR>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/cu8.png" ALT="cu8"></P>
+</TD>
+<TD>
+<P><B>Level</B> determines which logging statements to write to the default log file and other registered listeners based on the logging statement's tag (FATAL, ERROR, WARN, INFO, DEBUG, and TRACE). A zero (0) disables all logging. A value of seven (7) or higher will write and broadcast all logging statements.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<P><B>Error In</B> describes error conditions that occur before this node runs. This input provides standard error in functionality.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<P><B>Error Out</B> contains error information. This output provides standard error out functionality.
+</TD>
+</TR>
+</Table>
+</BODY>
+</HTML>
