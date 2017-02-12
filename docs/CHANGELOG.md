@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+## [1.7.0] - 2017-02-12
+
 ### Added
 
 - Detailed help documentation.
@@ -22,6 +24,10 @@ All notable changes to this project will be documented in this file, which is wr
 ### Fixed
 
 - Formatting of `License.txt` file to display better in the VI Package Manager interface.
+
+### Removed
+
+- The `Maximum Messages` optional control from the `Read Listener.vi`.
 
 ## [1.6.3] - 2017-02-05
 
