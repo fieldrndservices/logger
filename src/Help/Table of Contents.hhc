@@ -10,6 +10,10 @@
 <UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Logger">
+		<param name="Local" value="Logger.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VI Reference Documentation">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
