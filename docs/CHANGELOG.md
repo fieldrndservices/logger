@@ -6,13 +6,16 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Added
 
+- Detailed help documentation.
 - More information to context help documentation.
 - More comments to the `Simple.vi` example.
 
 ### Changed
 
+- The `Create Message CSV.vi` to `Create Statement CSV.vi` to be consistent with documentation.
 - VI icons to include glyphs to increase readability of VIs in block diagrams.
 - Control icons to include glyphs to increase readability of Controls in block diagrams.
+- Palette icons to include glyphs to increase readability.
 - The `Simple.vi` example to demonstrate more of the features and provide more documentation.
 - The `Message.ctl` to `Statement.ctl` for consistency with documentation.
 
