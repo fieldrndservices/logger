@@ -16,7 +16,9 @@
 			<Item Name="Logger.vipb" Type="Document" URL="../configs/Logger.vipb"/>
 		</Item>
 		<Item Name="Docs" Type="Folder">
+			<Item Name="Help" Type="Folder"/>
 			<Item Name="CHANGELOG.md" Type="Document" URL="../docs/CHANGELOG.md"/>
+			<Item Name="LICENSE.txt" Type="Document" URL="../docs/LICENSE.txt"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Simple.vi" Type="VI" URL="../src/Examples/Simple.vi"/>

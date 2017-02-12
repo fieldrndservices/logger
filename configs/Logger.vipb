@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-02-12 12:55:52" Creator="cfield" Comments="" ID="32f9b5668955d00181dd6b00016f464e">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-02-12 15:02:33" Creator="cfield" Comments="" ID="16876ae8b0252c68634ad88553bdcc8d">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
     <Library_Version>1.6.3.34</Library_Version>
@@ -114,6 +114,12 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Help</Path>
+        <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -138,6 +144,108 @@
       </Exclusions>
       <Exclusions>
         <Path>Public/Action-Status/Action-Status.mnu</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/images</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Catch_Error.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Configure_Calendar_Folder_Tree.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Configure_File.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Configure_File_Extension.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Configure_Level.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Configure_Maximum_File_Count.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Configure_Maximum_File_Size.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Configure_Root_Folder.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Configure_User-Defined_Codes.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Configure_User-Defined_Descriptions.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Configure_Verbosity.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Create_Statement_CSV.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Create_Temporary_Root_Folder.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Debug.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Disable_Default_File.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Error.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Fatal.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/File_Run.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/File_Start.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/File_Stop.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Index.hhk</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Info.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Initialize.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Logger.chw</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Logger.hhp</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Mask_Errors.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Read_Listener.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Register_Listener.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Shutdown.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Table of Contents.hhc</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Trace.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Unregister_Listener.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Warn.html</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\docs\LICENSE.txt</License_Agreement_Filepath>
@@ -308,7 +416,7 @@
         <Path>..\src\Public\Shutdown.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>185728026A2E52D9495AA739800D8C9F</GUID>
+      <GUID>69F871E6867A7F61C450B17DC77EFA80</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -483,7 +591,7 @@
         <Path>..\src\Public\Action-Status\File Run.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FA8C481877EA9E53F27EF0FBFFC5C46B</GUID>
+      <GUID>25A400F95E81E4D3D899503160EB1290</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -644,7 +752,7 @@
         <Path>..\src\Public\Configure\Configure File Extension.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>86BC98C1A1F5CEFF964AA8FBFAAAC24D</GUID>
+      <GUID>49E0741541CAE35D7E1D8013A97E8F3B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -679,7 +787,7 @@
         <Path>..\src\Public\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9172CA937533A09AAAF0A523D8141E57</GUID>
+      <GUID>5CFD8F27240B34382C7049B95595BC16</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -756,7 +864,7 @@
         <Path>..\src\Public\Utility\Create Temporary Root Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4ACCA8B7E9AD720C76ECFD5751B15434</GUID>
+      <GUID>4CCCEC01E41646DB99167C37E2576683</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
