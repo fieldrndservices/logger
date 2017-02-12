@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-02-12 15:02:33" Creator="cfield" Comments="" ID="16876ae8b0252c68634ad88553bdcc8d">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-02-12 15:21:33" Creator="cfield" Comments="" ID="1e5f60c6b44a25e260e259bd61eb90ee">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.6.3.34</Library_Version>
+    <Library_Version>1.7.0.35</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\Package</Library_Output_Folder>
@@ -29,22 +29,35 @@
     <Description>
       <One_Line_Description_Summary>A simple logging utility similar to Log4j but for LabVIEW</One_Line_Description_Summary>
       <Description>A simple logging utility similar to the Log4j library but for LabVIEW. Levels are provided for different logging statements: TRACE, DEBUG, INFO, WARN, ERROR, and FATAL. The higher the level, the more statements that are written to a file. The creation of "rollover" log files is supported along with organizing log files by Year, Month, and Day folder tree. Minimal error handling VIs are provided for logging or masking errors based on severity. The utility is known to work with 32-bit and 64-bit environments as well as Real-Time targets. Writing to a log file is done on a separate thread to maintain determinism on Real-Time targets.</Description>
-      <Copyright/>
+      <Copyright>Copyright (c) 2014, Field R&amp;D Services, LLC</Copyright>
       <Packager>Christopher R. Field</Packager>
       <URL/>
       <Release_Notes># Field R&amp;D Services: Logger
 
-## [1.6.3] - 2017-02-05
+## [1.7.0] - 2017-02-12
 
 ### Added
 
-- Context help descriptions for all public VIs.
-- Field R&amp;D Services category and icon for a proper namespace and organization.
-- 3-clause BSB license.
+- Detailed help documentation.
+- More information to context help documentation.
+- More comments to the `Simple.vi` example.
 
 ### Changed
 
-- Functions palette location from `User Libraries` to `Add-ons`.</Release_Notes>
+- The `Create Message CSV.vi` to `Create Statement CSV.vi` to be consistent with documentation.
+- VI icons to include glyphs to increase readability of VIs in block diagrams.
+- Control icons to include glyphs to increase readability of Controls in block diagrams.
+- Palette icons to include glyphs to increase readability.
+- The `Simple.vi` example to demonstrate more of the features and provide more documentation.
+- The `Message.ctl` to `Statement.ctl` for consistency with documentation.
+
+### Fixed
+
+- Formatting of `License.txt` file to display better in the VI Package Manager interface.
+
+### Removed
+
+- The `Maximum Messages` optional control from the `Read Listener.vi`.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -130,21 +143,6 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>Public/Logger.mnu</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Public/Utility/Utility.mnu</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Public/Data/Data.mnu</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Public/Configure/Configure.mnu</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Public/Action-Status/Action-Status.mnu</Path>
-      </Exclusions>
       <Exclusions>
         <Path>Help/images</Path>
       </Exclusions>
@@ -246,6 +244,12 @@
       </Exclusions>
       <Exclusions>
         <Path>Help/Warn.html</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Private</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Public</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\docs\LICENSE.txt</License_Agreement_Filepath>
@@ -399,7 +403,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Initialize.vi</Path>
+        <Path>..\src\Logger\Public\Initialize.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -413,10 +417,10 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Shutdown.vi</Path>
+        <Path>..\src\Logger\Public\Shutdown.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>69F871E6867A7F61C450B17DC77EFA80</GUID>
+      <GUID>7CE724CEDAADB150E8C98F5D1576D8CC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -448,7 +452,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Action-Status\Unregister Listener.vi</Path>
+        <Path>..\src\Logger\Public\Action-Status\Unregister Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -462,7 +466,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Action-Status\Fatal.vi</Path>
+        <Path>..\src\Logger\Public\Action-Status\Fatal.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -476,7 +480,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Action-Status\Debug.vi</Path>
+        <Path>..\src\Logger\Public\Action-Status\Debug.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -490,7 +494,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Action-Status\Trace.vi</Path>
+        <Path>..\src\Logger\Public\Action-Status\Trace.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -504,7 +508,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Action-Status\Info.vi</Path>
+        <Path>..\src\Logger\Public\Action-Status\Info.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -518,7 +522,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Action-Status\Error.vi</Path>
+        <Path>..\src\Logger\Public\Action-Status\Error.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -532,7 +536,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Action-Status\Warn.vi</Path>
+        <Path>..\src\Logger\Public\Action-Status\Warn.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -546,7 +550,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Action-Status\Register Listener.vi</Path>
+        <Path>..\src\Logger\Public\Action-Status\Register Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -560,7 +564,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Action-Status\File Start.vi</Path>
+        <Path>..\src\Logger\Public\Action-Status\File Start.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -574,7 +578,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Action-Status\File Stop.vi</Path>
+        <Path>..\src\Logger\Public\Action-Status\File Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -588,10 +592,10 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Action-Status\File Run.vi</Path>
+        <Path>..\src\Logger\Public\Action-Status\File Run.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>25A400F95E81E4D3D899503160EB1290</GUID>
+      <GUID>3345F275CD8DED9A8A083E2D398E9326</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -623,7 +627,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Configure\Configure Level.vi</Path>
+        <Path>..\src\Logger\Public\Configure\Configure Level.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -637,7 +641,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Configure\Configure Verbosity.vi</Path>
+        <Path>..\src\Logger\Public\Configure\Configure Verbosity.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -651,7 +655,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Configure\Configure User-Defined Codes.vi</Path>
+        <Path>..\src\Logger\Public\Configure\Configure User-Defined Codes.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -665,7 +669,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Configure\Configure User-Defined Descriptions.vi</Path>
+        <Path>..\src\Logger\Public\Configure\Configure User-Defined Descriptions.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -679,7 +683,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Configure\Configure File.vi</Path>
+        <Path>..\src\Logger\Public\Configure\Configure File.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -693,7 +697,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Configure\Configure Root Folder.vi</Path>
+        <Path>..\src\Logger\Public\Configure\Configure Root Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -707,7 +711,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Configure\Configure Maximum File Size.vi</Path>
+        <Path>..\src\Logger\Public\Configure\Configure Maximum File Size.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -721,7 +725,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Configure\Configure Calendar Folder Tree.vi</Path>
+        <Path>..\src\Logger\Public\Configure\Configure Calendar Folder Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -735,7 +739,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Configure\Configure Maximum File Count.vi</Path>
+        <Path>..\src\Logger\Public\Configure\Configure Maximum File Count.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -749,10 +753,10 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Configure\Configure File Extension.vi</Path>
+        <Path>..\src\Logger\Public\Configure\Configure File Extension.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>49E0741541CAE35D7E1D8013A97E8F3B</GUID>
+      <GUID>675AC971BB1E8CE9B1EE468EAE0BD47D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -784,10 +788,10 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Data\Read Listener.vi</Path>
+        <Path>..\src\Logger\Public\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5CFD8F27240B34382C7049B95595BC16</GUID>
+      <GUID>F133B327BC4B216F6BC386EA054FD9CB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -819,7 +823,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Utility\Catch Error.vi</Path>
+        <Path>..\src\Logger\Public\Utility\Catch Error.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -833,7 +837,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Utility\Mask Errors.vi</Path>
+        <Path>..\src\Logger\Public\Utility\Mask Errors.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -847,7 +851,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Utility\Disable Default File.vi</Path>
+        <Path>..\src\Logger\Public\Utility\Disable Default File.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -861,10 +865,10 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Public\Utility\Create Temporary Root Folder.vi</Path>
+        <Path>..\src\Logger\Public\Utility\Create Temporary Root Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4CCCEC01E41646DB99167C37E2576683</GUID>
+      <GUID>8D65C86DDB3868A7691C2795AA146CDF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
