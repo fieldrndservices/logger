@@ -7,12 +7,12 @@
 <BODY BGCOLOR="#FFFFFF">
 <A NAME="Logger.lvlib:Initialize.vi"></A><H2>Initialize</H2>
 <P>Initializes all internal buffers and the default log file. This must be used at the start of the application for the logging to function properly.</P>
-<P><IMG SRC="Logger_lvlib_Initializec.png" ALT="Logger.lvlib:Initialize.vi"></P>
+<P><IMG SRC="images/Logger_lvlib_Initializec.png" ALT="Logger.lvlib:Initialize.vi"></P>
 <HR>
 <Table>
 <TR valign=TOP>
 <TD>
-<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+<P><IMG SRC="images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
 </TD>
 <TD>
 <P><B>Error In</B> describes error conditions that occur before this node runs. This input provides standard error in functionality.</P>
@@ -22,7 +22,7 @@
 <Table>
 <TR valign=TOP>
 <TD>
-<P><IMG SRC="ci32.png" ALT="ci32"></P>
+<P><IMG SRC="images/ci32.png" ALT="ci32"></P>
 </TD>
 <TD>
 <P><B>Maximum Messages</B> is the number of messages that are stored internally. If a value less than zero, typically -1, is used, then number of messages is limited by the available memory of the system. This is the default. If a positive non-zero value is used, then only the specified number of messages are stored in memory for writing to the default log file and other listeners. Setting a positive, non-zero value will reduce dynamic memory allocations and memory usage, which is important for Real-Time applications and embedded systems.</P>
@@ -32,7 +32,7 @@
 <Table>
 <TR valign=TOP>
 <TD>
-<P><IMG SRC="ci32.png" ALT="ci32"></P>
+<P><IMG SRC="images/ci32.png" ALT="ci32"></P>
 </TD>
 <TD>
 <P><B>Buffer Capacity</B> is the amount of memory in bytes allocated for buffering writes to the default log file. Memory is pre-allocated to avoid jitter in Real-Time deterministic applications. This is important for Real-Time applications and embedded systems to maintain determinism. Increase this value to buffer more lines in memory. Decrease this value to reduce memory usage but risk losing logging statements and out-of-memory errors.</P>
@@ -42,7 +42,7 @@
 <Table>
 <TR valign=TOP>
 <TD>
-<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+<P><IMG SRC="images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
 </TD>
 <TD>
 <P><B>Error Out</B> contains error information. This output provides standard error out functionality.

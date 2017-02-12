@@ -1,0 +1,44 @@
+<HTML>
+<HEAD>
+<TITLE>Logger.lvlib:Trace.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="Logger.lvlib:Trace.vi"></A><H2>Trace</H2>
+<P>Creates a logging statement from a message string with the TRACE level. The statement is created even if an error is passed to the Error In terminal. The logging level must be set to six (6) or higher for this statement to be received by listeners. A logging statement is a comma-separated values (CSV) line containing an ISO 8601 timestamp, the level name (&quot;TRACE&quot;), the name of the origin VI, and the message.</P>
+<P><IMG SRC="images/Logger_lvlib_Tracec.png" ALT="Logger.lvlib:Trace.vi"></P>
+<HR>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<P><B>Error In</B> describes error conditions that occur before this node runs. With the following execption, this input provides standard error in functionality.</P> 
+<P>This node runs normally <I>even if</I> an error occurred before this node runs.
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<P><B>Message</B> is the text for the last column of the Comma-Separated Values (CSV) line in the logging statement. This is user defined. The rest of the CSV line is generated automatically.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<P><B>Error Out</B> contains error information. This output provides standard error out functionality.</P>
+</TD>
+</TR>
+</Table>
+</BODY>
+</HTML>
