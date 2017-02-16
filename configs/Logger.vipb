@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-02-16 09:22:01" Creator="cfield" Comments="" ID="f2c8ec24c90b1c6937ce5165e3df147a">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-02-16 09:24:04" Creator="cfield" Comments="" ID="0bdc0f44d6b335587d498fb4afd93e08">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.7.1.40</Library_Version>
+    <Library_Version>1.7.1.41</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\Package</Library_Output_Folder>
