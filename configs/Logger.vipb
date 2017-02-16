@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-02-12 16:41:45" Creator="cfield" Comments="" ID="700448f98135427e7277470b37d2555e">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-02-16 09:22:01" Creator="cfield" Comments="" ID="f2c8ec24c90b1c6937ce5165e3df147a">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.7.0.40</Library_Version>
+    <Library_Version>1.7.1.40</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\Package</Library_Output_Folder>
@@ -34,30 +34,12 @@
       <URL/>
       <Release_Notes># Field R&amp;D Services: Logger
 
-## [1.7.0] - 2017-02-12
-
-### Added
-
-- Detailed help documentation.
-- More information to context help documentation.
-- More comments to the `Simple.vi` example.
-
-### Changed
-
-- The `Create Message CSV.vi` to `Create Statement CSV.vi` to be consistent with documentation.
-- VI icons to include glyphs to increase readability of VIs in block diagrams.
-- Control icons to include glyphs to increase readability of Controls in block diagrams.
-- Palette icons to include glyphs to increase readability.
-- The `Simple.vi` example to demonstrate more of the features and provide more documentation.
-- The `Message.ctl` to `Statement.ctl` for consistency with documentation.
+## [1.7.1] - 2017-12-16
 
 ### Fixed
 
-- Formatting of `License.txt` file to display better in the VI Package Manager interface.
-
-### Removed
-
-- The `Maximum Messages` optional control from the `Read Listener.vi`.</Release_Notes>
+- The "Write Period (ms)" not found error when using the `File Start` VI to run in the background
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -414,7 +396,7 @@
         <Path>..\src\Logger\Public\Shutdown.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3BDA34967BF923BC3A2C9269853E4032</GUID>
+      <GUID>A1CA177B0E5F7C4C29D09FB27191A733</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -589,7 +571,7 @@
         <Path>..\src\Logger\Public\Action-Status\File Run.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4B9465133C66C716E52EC604384B831E</GUID>
+      <GUID>1C46CB6BA3ACB45006C98EDA4A0CEB91</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -750,7 +732,7 @@
         <Path>..\src\Logger\Public\Configure\Configure File Extension.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC9880D5CCF8599398F83B10014A79B5</GUID>
+      <GUID>FE441A3C9A22C870AB7A078DA9F4431C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -785,7 +767,7 @@
         <Path>..\src\Logger\Public\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC83C3DAF9D70959CB1E2FDA501A9FF1</GUID>
+      <GUID>78EB92E8FDF546C7A1B9240C0A8623BB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -862,7 +844,7 @@
         <Path>..\src\Logger\Public\Utility\Create Temporary Root Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9EE10091BC0B9D22C9D2A10D49EE4AF4</GUID>
+      <GUID>CEED56FFDD92C0ED661A83672A2BB61D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
