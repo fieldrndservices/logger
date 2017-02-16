@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+## [1.7.1] - 2017-12-16
+
+### Fixed
+
+- The "Write Period (ms)" not found error when using the `File Start` VI to run in the background
+
 ## [1.7.0] - 2017-02-12
 
 ### Added
