@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+## [1.8.0] - 2017-11-13
+
 ### Added
 
 - Support for LabVIEW 2017.
