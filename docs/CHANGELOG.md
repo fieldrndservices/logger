@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+### Added
+
+- Support for LabVIEW 2017.
+
+### Changed
+
+- The install locations for the VIs and documentation to reduce unnecessary nested folders.
+
 ## [1.7.1] - 2017-12-16
 
 ### Fixed
