@@ -16,6 +16,11 @@ All notable changes to this project will be documented in this file, which is wr
 - The product icon for the package.
 - The install locations for the VIs and documentation to reduce unnecessary nested folders.
 
+### Fixed
+
+- Missing `Create Statement CSV` Utility VI from the Utility sub-palette.
+- _Show in Palettes_ button linkage in VI Package Manager.
+
 ## [1.7.1] - 2017-12-16
 
 ### Fixed
