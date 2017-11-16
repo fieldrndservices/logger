@@ -19,7 +19,7 @@ All notable changes to this project will be documented in this file, which is wr
 ### Fixed
 
 - Missing `Create Statement CSV` Utility VI from the Utility sub-palette.
-- _Show in Palettes_ button linkage in VI Package Manager.
+- The _Show in Palette_ button for the VI Package Manager not working correctly.
 
 ## [1.7.1] - 2017-12-16
 
