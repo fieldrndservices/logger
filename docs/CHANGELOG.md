@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+### Changed
+
+- The help documentation style to be consistent with LabVIEW's help.
+- The Table of Contents (TOC) for help documentation to be consistent with Instrument Plug-n-Play documentation.
+- On-disk organization of help files to be consistent with website projects.
+
 ## [1.8.0] - 2017-11-13
 
 ### Added
