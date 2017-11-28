@@ -2,42 +2,11 @@
 Compatibility=1.1 or later
 Compiled file=Logger.chm
 Contents file=Table of Contents.hhc
-Default topic=Logger.html
+Default topic=pages\Readme.html
 Display compile progress=No
+Error log file=Logger.log
 Index file=Index.hhk
 Language=0x409 English (United States)
 Title=Logger
-
-
-[FILES]
-Catch_Error.html
-Configure_Calendar_Folder_Tree.html
-Configure_File.html
-Configure_File_Extension.html
-Configure_Level.html
-Configure_Maximum_File_Count.html
-Configure_Maximum_File_Size.html
-Configure_Root_Folder.html
-Configure_User-Defined_Codes.html
-Configure_User-Defined_Descriptions.html
-Configure_Verbosity.html
-Create_Statement_CSV.html
-Create_Temporary_Root_Folder.html
-Debug.html
-Disable_Default_File.html
-Error.html
-Fatal.html
-File_Run.html
-File_Start.html
-File_Stop.html
-Info.html
-Initialize.html
-Mask_Errors.html
-Read_Listener.html
-Register_Listener.html
-Shutdown.html
-Trace.html
-Unregister_Listener.html
-Warn.html
 
 [INFOTYPES]
