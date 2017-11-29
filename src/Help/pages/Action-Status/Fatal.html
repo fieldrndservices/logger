@@ -1,44 +1,40 @@
-<HTML>
-<HEAD>
-<TITLE>Logger.lvlib:Fatal.vi</TITLE>
-<META NAME="Author" CONTENT="">
-<META NAME="GENERATOR" CONTENT="G Development Environment">
-</HEAD>
-<BODY BGCOLOR="#FFFFFF">
-<A NAME="Logger.lvlib:Fatal.vi"></A><H2>Fatal</H2>
-<P>Creates a logging statement from a message string with the FATAL level. The statement is created even if an error is passed to the Error In terminal. The level must be set to 1 or higher for this statement to be received by listeners. A logging statement is a comma-separated values (CSV) line containing an ISO 8601 timestamp, the level name (&quot;FATAL&quot;), the name of the origin VI, and the message.</P>
-<P><IMG SRC="images/Logger_lvlib_Fatalc.png" ALT="Logger.lvlib:Fatal.vi"></P>
-<HR>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
-</TD>
-<TD>
-<P><B>Error In</B> describes error conditions that occur before this node runs. With the following execption, this input provides standard error in functionality.</P> 
-<P>This node runs normally <I>even if</I> an error occurred before this node runs.
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/cstr.png" ALT="cstr"></P>
-</TD>
-<TD>
-<P><B>Message</B> is the text for the last column of the Comma-Separated Values (CSV) line in the logging statement. This is user defined. The rest of the CSV line is generated automatically.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
-</TD>
-<TD>
-<P><B>Error Out</B> contains error information. This output provides standard error out functionality.</P>
-</TD>
-</TR>
-</Table>
-</BODY>
-</HTML>
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
+<html>
+<head>
+<title>Fatal VI</title>
+<meta name="author" content="Field R&D Services, LLC">
+<meta name="generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
+<link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
+</head>
+<body bgcolor="#ffffff">
+<div id="styleDivTitle">
+<h1>Fatal VI</h1>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Action-Status/Action-Status.html">Action-Status VIs</a></p>
+<p class="Body"><strong>Requires:</strong> Logger</p>
+<p class="Body">Creates a logging statement from a message string with the FATAL level. The statement is created even if an error is passed to the Error In terminal. The level must be set to 1 or higher for this statement to be received by listeners. A logging statement is a comma-separated values (CSV) line containing an ISO 8601 timestamp, the level name (&quot;FATAL&quot;), the name of the origin VI, and the message.</p>
+<p class="Anchor"><img src="/images/Logger_lvlib_Fatalc.png" alt="Fatal VI"></p>
+</div>
+<div id="styleDivScrolling">
+<table class="Borderless">
+<tr>
+<td class="Icon"><img src="/images/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. With the following execption, this input provides standard error in functionality. 
+<p>This node runs normally <em>even if</em> an error occurred before this node runs.</p></td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/cstr.png" alt="cstr"></td>
+<td><strong>Message</strong> is the text for the last column of the Comma-Separated Values (CSV) line in the logging statement. This is user defined. The rest of the CSV line is generated automatically.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This output provides standard error out functionality.</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
