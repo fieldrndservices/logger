@@ -1,67 +1,49 @@
-<HTML>
-<HEAD>
-<TITLE>Logger.lvlib:Catch Error.vi</TITLE>
-<META NAME="Author" CONTENT="">
-<META NAME="GENERATOR" CONTENT="G Development Environment">
-</HEAD>
-<BODY BGCOLOR="#FFFFFF">
-<A NAME="Logger.lvlib:Catch Error.vi"></A><H2>Catch Error</H2>
-<P>Handles an error by converting it to a logging statement and sending to listeners, including the default log file if enabled, based on the configured Level and selected Severity of the error.</P>
-<P>A prompt is displayed to a user based on the configured Verbosity and the selected Severity. There are four possible severities for an error: (1) FATAL, (2) RECOVERABLE, (3) WARNING, and (4) BENIGN. FATAL errors are logged at the FATAL level, RECOVERABLE errors are logged at the ERROR level, WARNING errors are logged at the INFO level, and BENIGN errors are logged at the DEBUG level. If the Verbosity is greater than or equal to the Severity of the error, a dialog is displayed.</P> 
-<P>This is essentially a wrapper for the General Error Handler VI but integrates its usage with the logger.</P>
-<P><IMG SRC="images/Logger_lvlib_Catch_Errorc.png" ALT="Logger.lvlib:Catch Error.vi"></P>
-<HR>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/cenum.png" ALT="cenum"></P>
-</TD>
-<TD>
-<P><B>Severity</B> is used to determine if an error dialog, or prompt, should be displayed if an error occurs.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
-</TD>
-<TD>
-<P><B>Error In</B> describes error conditions that occur before this node runs.</P>
-<P>This input contains <B>status</B>, <B>code</B>, and <B>source</B>, which provide standard error in cluster element functionality.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/cstr.png" ALT="cstr"></P>
-</TD>
-<TD>
-<P><B>Source</B> is an optional string to describe the source of the error. If empty, then the parent VI calling this VI is used as the source.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/cbool.png" ALT="cbool"></P>
-</TD>
-<TD>
-<P><B>Clear</B> determines if the error should be cleared after possibly displaying a prompt and logging the error. If FALSE, then the error is propogated to Error Out. Regardless if TRUE or FALSE, errors are prompted based on Verbosity and Severity and converted to logging statements.</P>
-<P>By default, FATAL errors, where Severity is equal to FATAL, are <I>not</I> cleared, but all other severities are cleared.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
-</TD>
-<TD>
-<P><B>Error Out</B> contains error information. This output provides standard error out functionality.
-</TD>
-</TR>
-</Table>
-</BODY>
-</HTML>
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
+<html>
+<head>
+<title>Catch Error VI</title>
+<meta name="author" content="Field R&D Services, LLC">
+<meta name="generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
+<link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
+</head>
+<body bgcolor="#ffffff">
+<div id="styleDivTitle">
+<h1>Catch Error VI</h1>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Utility/Utility.html">Utility VIs</a></p>
+<p class="Body"><strong>Requires:</strong> Logger</p>
+<p class="Body">A prompt is displayed to a user based on the configured Verbosity and the selected Severity. There are four possible severities for an error: (1) FATAL, (2) RECOVERABLE, (3) WARNING, and (4) BENIGN. FATAL errors are logged at the FATAL level, RECOVERABLE errors are logged at the ERROR level, WARNING errors are logged at the INFO level, and BENIGN errors are logged at the DEBUG level. If the Verbosity is greater than or equal to the Severity of the error, a dialog is displayed.</p> 
+<p class="Body">This is essentially a wrapper for the General Error Handler VI but integrates its usage with the logger.</p>
+<p class="Anchor"><img src="/images/Logger_lvlib_Catch_Errorc.png" alt="Catch Error VI"></p>
+</div>
+<div id="styleDivScrolling">
+<table class="Borderless">
+<tr>
+<td><img src="/images/cenum.png" alt="cenum"></td>
+<td><strong>Severity</strong> is used to determine if an error dialog, or prompt, should be displayed if an error occurs.</td>
+</tr>
+<tr>
+<td><img src="/images/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. <p>This input contains <strong>status</strong>, <strong>code</strong>, and <strong>source</strong>, which provide standard error in cluster element functionality.</p>
+</td>
+</tr>
+<tr>
+<td><img src="/images/cstr.png" alt="cstr"></td>
+<td><strong>Source</strong> is an optional string to describe the source of the error. If empty, then the parent VI calling this VI is used as the source.</td>
+</tr>
+<tr>
+<td><img src="/images/cbool.png" alt="cbool"></td>
+<td><strong>Clear</strong> determines if the error should be cleared after possibly displaying a prompt and logging the error. If FALSE, then the error is propogated to Error Out. Regardless if TRUE or FALSE, errors are prompted based on Verbosity and Severity and converted to logging statements. <p>By default, FATAL errors, where Severity is equal to FATAL, are <em>not</em> cleared, but all other severities are cleared.</p></td>
+</tr>
+<tr>
+<td><img src="/images/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This output provides standard error out functionality.</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
