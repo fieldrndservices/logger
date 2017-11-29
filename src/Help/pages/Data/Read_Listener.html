@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
+<html>
+<head>
+<title>Read Listener VI</title>
+<meta name="author" content="Field R&D Services, LLC">
+<meta name="generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
+<link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
+</head>
+<body bgcolor="#ffffff">
+<div id="styleDivTitle">
+<h1>Read Listener VI</h1>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Data/Data.html">Data VIs</a></p>
+<p class="Body"><strong>Requires:</strong> Logger</p>
+<p class="Body">Gets the logging statements for a listener.</p>
+<p class="Body">Interally, each listener is given a queue and logging statements are enqueued in the order they are received by the logging system. Thus, logging statements are broadcast to all registered listeners using queues. The Dequeue or Flush Queue primitives can be used handling receiving logging statements by the listener.</p>
+<p class="Body">Note, a listener must first be registered for logging statements; otherwise, an error will occur when using this VI.</p>
+<p class="Anchor"><img src="/images/Logger_lvlib_Read_Listenerc.png" alt="Read Listener VI"></p>
+</div>
+<div id="styleDivScrolling">
+<table class="Borderless">
+<tr>
+<td class="Icon"><img src="/images/cstr.png" alt="cstr"></td>
+<td><strong>Listener ID</strong> is an unique string to identify the listener.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This output provides standard error out functionality.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/iqueuern.png" alt="iqueuern"></td>
+<td><strong>Listener</strong> A reference to the queue with logging statements for the listener.</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
+<html>
+<head>
+<title>Initialize VI</title>
+<meta name="author" content="Field R&D Services, LLC">
+<meta name="generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
+<link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
+</head>
+<body bgcolor="#ffffff">
+<div id="styleDivTitle">
+<h1>Initialize VI</h1>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Logger.html">Logger</a></p>
+<p class="Body"><strong>Requires:</strong> Logger</p>
+<p class="Body">Initializes all internal buffers and the default log file. This must be used at the start of the application for the logging to function properly.</p>
+<p class="Anchor"><img src="/images/Logger_lvlib_Initializec.png" alt="Initialize VI" border="0"></p>
+</div>
+<div id="styleDivScrolling">
+<table class="Borderless">
+<tr>
+<td class="Icon"><img src="/images/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</> describes error conditions that occur before this node runs. This input provides standard error in functionality.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/ci32.png" alt="ci32"></td>
+<td><strong>Maximum Messages</strong> is the number of messages that are stored internally. If a value less than zero, typically -1, is used, then number of messages is limited by the available memory of the system. This is the default. If a positive non-zero value is used, then only the specified number of messages are stored in memory for writing to the default log file and other listeners. Setting a positive, non-zero value will reduce dynamic memory allocations and memory usage, which is important for Real-Time applications and embedded systems.
+</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/ci32.png" alt="ci32"></td>
+<td><strong>Buffer Capacity</strong> is the amount of memory in bytes allocated for buffering writes to the default log file. Memory is pre-allocated to avoid jitter in Real-Time deterministic applications. This is important for Real-Time applications and embedded systems to maintain determinism. Increase this value to buffer more lines in memory. Decrease this value to reduce memory usage but risk losing logging statements and out-of-memory errors.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This output provides standard error out functionality.</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
