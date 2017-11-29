@@ -1,44 +1,38 @@
-<HTML>
-<HEAD>
-<TITLE>Logger.lvlib:Configure Maximum File Size.vi</TITLE>
-<META NAME="Author" CONTENT="">
-<META NAME="GENERATOR" CONTENT="G Development Environment">
-</HEAD>
-<BODY BGCOLOR="#FFFFFF">
-<A NAME="Logger.lvlib:Configure Maximum File Size.vi"></A><H2>Configure Maximum File Size</H2>
-<P>Sets the maximum file size for the default log file before initiating a rollover event, where a new log file is created automatically.</P>
-<P>If the current log file size is greater or equal to this value after writing the previous logging statement, then the file is closed and a new log file is created. The new log file will have a file name using the ISO 8601 timestamp format. It is recommended to keep the file size less than 20MB so that log files can be easily shared via email with peers. Many email providers limit attachments to under 20MB.</P>
-<P><IMG SRC="images/Logger_lvlib_Configure_Maximum_File_Sizec.png" ALT="Logger.lvlib:Configure Maximum File Size.vi"></P>
-<HR>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
-</TD>
-<TD>
-<P><B>Error In</B> describes error conditions that occur before this node runs. This input provides standard error in functionality.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/ci32.png" ALT="ci32"></P>
-</TD>
-<TD>
-<P><B>File Size</B> is the maximum file size in bytes for a log file.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
-</TD>
-<TD>
-<P><B>Error Out</B> contains error information. This output provides standard error out functionality.
-</TD>
-</TR>
-</Table>
-</BODY>
-</HTML>
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
+<html>
+<head>
+<title>Configure Maximum File Size VI</title>
+<meta name="author" content="Field R&D Services, LLC">
+<meta name="generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
+<link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
+</head>
+<body bgcolor="#ffffff">
+<div id="styleDivTitle">
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Configure/Configure.html">Configure VIs</a></p>
+<p class="Body"><strong>Requires:</strong> Logger</p>
+<p class="Body">Sets the maximum file size for the default log file before initiating a rollover event, where a new log file is created automatically.</p>
+<p class="Anchor"><img src="/images/Logger_lvlib_Configure_Maximum_File_Sizec.png" alt="Configure Maximum File Size VI"></p>
+</div>
+<div id="styleDivScrolling">
+<table class="Borderless">
+<tr>
+<td class="Icon"><img src="/images/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/ci32.png" alt="ci32"></td>
+<td><strong>File Size</strong> is the maximum file size in bytes for a log file.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This output provides standard error out functionality.</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,45 +1,39 @@
-<HTML>
-<HEAD>
-<TITLE>Logger.lvlib:Configure Verbosity.vi</TITLE>
-<META NAME="Author" CONTENT="">
-<META NAME="GENERATOR" CONTENT="G Development Environment">
-</HEAD>
-<BODY BGCOLOR="#FFFFFF">
-<A NAME="Logger.lvlib:Configure Verbosity.vi"></A><H2>Configure Verbosity</H2>
-<P>Sets the verbosity for displaying an error dialog to a user when using the Catch Error VI for error handling.</P>
-<P>A Graphical User Interface (GUI) dialog, or prompt, is displayed if the severity of the error is equal to or less than the verbosity. Generally a verbosity of zero (0) disables all error dialogs, while a verbosity of four (4) will display an error dialog for any severity. There are four possible severities for an error using the Catch Error.vi: (1) FATAL, (2) RECOVERABLE, (3) WARNING, and (4) BENIGN. FATAL errors are logged at the FATAL level, RECOVERABLE errors are logged at the ERROR level, WARNING errors are logged at the INFO level, and BENIGN errors are logged at the DEBUG level.</P>
-<P>Any errors handled with the Catch Error.vi are logged to the default log file depending the configured Level. The verbosity is only used to determine if an error dialog should be displayed based on the severity of the error handled by the Catch Error.vi node.</P>
-<P><IMG SRC="images/Logger_lvlib_Configure_Verbosityc.png" ALT="Logger.lvlib:Configure Verbosity.vi"></P>
-<HR>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/cu8.png" ALT="cu8"></P>
-</TD>
-<TD>
-<P><B>Verbosity</B> determines whether to prompt a user with an error dialog for an error handled with the Catch Error VI based on the error's severity.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
-</TD>
-<TD>
-<P><B>Error In</B> describes error conditions that occur before this node runs. This input provides standard error in functionality.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
-</TD>
-<TD>
-<P><B>Error Out</B> contains error information. This output provides standard error out functionality.
-</TD>
-</TR>
-</Table>
-</BODY>
-</HTML>
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
+<html>
+<head>
+<title>Configure Verbosity VI</title>
+<meta name="author" content="Field R&D Services, LLC">
+<meta name="generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
+<link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
+</head>
+<body bgcolor="#ffffff">
+<div id="styleDivTitle">
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Configure/Configure.html">Configure VIs</a></p>
+<p class="Body"><strong>Requires:</strong> Logger</p>
+<p class="Body">Sets the verbosity for displaying an error dialog to a user when using the Catch Error VI for error handling.</p>
+<p class="Body">Any errors handled with the Catch Error.vi are logged to the default log file depending the configured Level. The verbosity is only used to determine if an error dialog should be displayed based on the severity of the error handled by the Catch Error.vi node.</p>
+<p class="Anchor"><img src="/images/Logger_lvlib_Configure_Verbosityc.png" alt="Configure Verbosity VI"></p>
+</div>
+<div id="styleDivScrolling">
+<table class="Borderless">
+<tr>
+<td class="Icon"><img src="/images/cu8.png" alt="cu8"></td>
+<td><strong>Verbosity</strong> determines whether to prompt a user with an error dialog for an error handled with the Catch Error VI based on the error's severity.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This output provides standard error out functionality.</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
