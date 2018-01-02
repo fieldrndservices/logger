@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2015-07-19 16:42:56" Modified_Date="2018-01-02 12:41:17" Creator="cfield" Comments="" ID="6dce12c36d326ea1ba7d93f6d3754dc6">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2015-07-19 16:42:56" Modified_Date="2018-01-02 13:12:36" Creator="cfield" Comments="" ID="fa2ab7fb8a742b511b07bbd356e713c0">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.8.1.59</Library_Version>
+    <Library_Version>1.8.1.61</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -38,6 +38,7 @@
 
 ### Changed
 
+- Window appearance VI names to match `Initialize` and `Shutdown` VIs.
 - The help documentation style to be consistent with LabVIEW's help.
 - The Table of Contents (TOC) for help documentation to be consistent with Instrument Plug-n-Play documentation.
 - On-disk organization of help files to be consistent with website projects.</Release_Notes>
@@ -257,7 +258,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Initialize.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Initialize</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -285,7 +286,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Shutdown.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Shutdown</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -324,7 +325,7 @@
         <Path>..\src\Public\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>57D26E18D08855406189FFD71DE38C13</GUID>
+      <GUID>A22481CEF0FA3F8C081CF3E6DEA50BA5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -348,7 +349,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Unregister Listener.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Unregister Listener</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -362,7 +363,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Fatal.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Fatal</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -376,7 +377,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Debug.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Debug</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -390,7 +391,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Trace.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Trace</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -404,7 +405,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Info.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Info</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -418,7 +419,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Error.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Error</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -432,7 +433,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Warn.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Warn</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -446,7 +447,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Register Listener.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Register Listener</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -460,7 +461,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>File Start.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>File Start</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -474,7 +475,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>File Stop.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>File Stop</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -488,7 +489,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>File Run.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>File Run</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -499,7 +500,7 @@
         <Path>..\src\Logger\Public\Action-Status\File Run.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D79A65D2F807D534CB9E0D7425357592</GUID>
+      <GUID>87E8AAD958B5B3446E90EDF72755806C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -523,7 +524,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Configure Level.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Configure Level</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -537,7 +538,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Configure Verbosity.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Configure Verbosity</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -551,7 +552,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Configure User-Defined Codes.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Configure User-Defined Codes</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -565,7 +566,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Configure User-Defined Descriptions.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Configure User-Defined Descriptions</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -579,7 +580,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Configure File.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Configure File</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -593,7 +594,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Configure Root Folder.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Configure Root Folder</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -607,7 +608,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Configure Maximum File Size.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Configure Maximum File Size</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -621,7 +622,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Configure Calendar Folder Tree.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Configure Calendar Folder Tree</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -635,7 +636,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Configure Maximum File Count.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Configure Maximum File Count</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -649,7 +650,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Configure File Extension.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Configure File Extension</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -660,7 +661,7 @@
         <Path>..\src\Logger\Public\Configure\Configure File Extension.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C1FF708E9FC602F5059420E474398ADC</GUID>
+      <GUID>8C739B5F166A10391756CC5369B0A44D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -684,7 +685,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read Listener.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Read Listener</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -695,7 +696,7 @@
         <Path>..\src\Logger\Public\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0A7D6CBCC6191A23AFC8E6D398E07819</GUID>
+      <GUID>72F0938F69FF59C6B0ED1088FF2A5288</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -719,7 +720,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Catch Error.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Catch Error</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -733,7 +734,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Mask Errors.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Mask Errors</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -747,7 +748,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Disable Default File.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Disable Default File</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -761,7 +762,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create Temporary Root Folder.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Create Temporary Root Folder</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -775,7 +776,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create Statement CSV.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Create Statement CSV</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -786,7 +787,7 @@
         <Path>..\src\Logger\Public\Utility\Create Statement CSV.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D2C68FF6BC28855E718BA9D31E553C66</GUID>
+      <GUID>CA1074F303179648FB64DA6AB36FCC87</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
