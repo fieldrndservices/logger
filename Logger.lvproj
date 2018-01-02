@@ -80,8 +80,8 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0645FFD4-841C-4396-A786-022F6120B3E5}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">6</Property>
-				<Property Name="Bld_version.patch" Type="Int">4</Property>
+				<Property Name="Bld_version.minor" Type="Int">8</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Example.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Simple Example/Example.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -91,7 +91,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Simple Example/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{571369B5-DD74-42A8-99FB-068732A98EE7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9B9C87B0-E67A-4511-96C2-427B73139FDD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/Simple.vi</Property>
