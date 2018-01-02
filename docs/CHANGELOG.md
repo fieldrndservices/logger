@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+## [1.8.1] - 2018-01-02
+
 ### Changed
 
 - The help documentation style to be consistent with LabVIEW's help.
