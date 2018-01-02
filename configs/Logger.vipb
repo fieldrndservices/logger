@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2015-07-19 16:42:56" Modified_Date="2018-01-02 12:29:23" Creator="cfield" Comments="" ID="a11086af0082b7d0705d6405f1a12aae">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2015-07-19 16:42:56" Modified_Date="2018-01-02 12:41:17" Creator="cfield" Comments="" ID="6dce12c36d326ea1ba7d93f6d3754dc6">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.8.1.58</Library_Version>
+    <Library_Version>1.8.1.59</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -324,7 +324,7 @@
         <Path>..\src\Public\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>144C581223A91E76C1884925CF7FD6F1</GUID>
+      <GUID>57D26E18D08855406189FFD71DE38C13</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -499,7 +499,7 @@
         <Path>..\src\Logger\Public\Action-Status\File Run.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>598C26D74144A3F2F79B5219C59E6844</GUID>
+      <GUID>D79A65D2F807D534CB9E0D7425357592</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -660,7 +660,7 @@
         <Path>..\src\Logger\Public\Configure\Configure File Extension.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3899C8EDE04BE3E243227B064748FD08</GUID>
+      <GUID>C1FF708E9FC602F5059420E474398ADC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -695,7 +695,7 @@
         <Path>..\src\Logger\Public\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>09A358F04CB75FF9A60C0ABB57D977B3</GUID>
+      <GUID>0A7D6CBCC6191A23AFC8E6D398E07819</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -786,7 +786,7 @@
         <Path>..\src\Logger\Public\Utility\Create Statement CSV.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC7328614847495F92BF3F856F83AD6A</GUID>
+      <GUID>D2C68FF6BC28855E718BA9D31E553C66</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
