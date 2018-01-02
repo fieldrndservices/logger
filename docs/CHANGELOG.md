@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Changed
 
+- Window appearance VI names to match `Initialize` and `Shutdown` VIs.
 - The help documentation style to be consistent with LabVIEW's help.
 - The Table of Contents (TOC) for help documentation to be consistent with Instrument Plug-n-Play documentation.
 - On-disk organization of help files to be consistent with website projects.
