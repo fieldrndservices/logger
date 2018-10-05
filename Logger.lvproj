@@ -22,8 +22,8 @@
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Simple.vi" Type="VI" URL="../src/Examples/Simple.vi"/>
 		</Item>
-		<Item Name="Logger.lvlib" Type="Library" URL="../src/Logger/Logger.lvlib"/>
 		<Item Name="Scripts.lvlib" Type="Library" URL="../src/Scripts/Scripts.lvlib"/>
+		<Item Name="Toolkit.lvlib" Type="Library" URL="../src/Toolkit/Toolkit.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
