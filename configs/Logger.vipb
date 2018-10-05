@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2018-10-05 15:11:26" Creator="cfield" Comments="" ID="b3ceb15b0ac5e8557b69fd6629e021a5">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2018-10-05 15:25:16" Creator="cfield" Comments="" ID="882694e260d8c3d95274bc079d0f790a">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
     <Library_Version>1.8.1.61</Library_Version>
@@ -123,7 +123,211 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Toolkit</Path>
+        <Path>Toolkit/Initialize.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Logger.lvlib</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Shutdown.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Controls</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/API</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/File_Action.ctl</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Action.ctl</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Clear Listeners.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Close.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Control Action.ctl</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Control State.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Create Base Folder.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Create Bulk CSV String.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Create Calendar Folder Tree.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Create ISO 8601 File Name.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Create Level String.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Data.ctl</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Error.lvlib</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Error_Action.ctl</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/File.lvlib</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/File_Manager.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Find.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Get Oldest File.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Log.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Manager.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Open.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Prune.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Register.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Release.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/State.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Strip Whitespace.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Unregister.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Write Header.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support VIs/Write.vi</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
@@ -138,30 +342,6 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>Help/images</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Help/Index.hhk</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Help/Logger.hhp</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Help/Table of Contents.hhc</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Help/pages</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Help/scripts</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Help/styles</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Help/Logger.log</Path>
-      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\docs\LICENSE.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -331,7 +511,7 @@
         <Path>..\builds\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>12EDE1AF94FE4372A72338515AC183AF</GUID>
+      <GUID>AC426DBDC3699B3B22306678FC1A808D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -506,7 +686,7 @@
         <Path>..\builds\Toolkit\API\Unregister Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8F4352017EA3D7D1C3F8E2FA3C74825C</GUID>
+      <GUID>263C32E33A7F1B4D1666B116AB921A84</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -667,7 +847,7 @@
         <Path>..\builds\Toolkit\API\Configure User-Defined Descriptions.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8955BED2EFB5676B69742A2BCE6D94A4</GUID>
+      <GUID>C9A0BF7ECC3016C769D5AC03CD1E538D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -702,7 +882,7 @@
         <Path>..\builds\Toolkit\API\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>83FDAB7FCF7F1EDF2762C024E7C29EF6</GUID>
+      <GUID>ABE45DF568714E9204F43BB95B6A88D4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -793,7 +973,7 @@
         <Path>..\builds\Toolkit\API\Disable Default File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>83EB8BFCEA038404BA461B4B88C839C8</GUID>
+      <GUID>F7E84417244CAFBF0DAA76913A1BEF01</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
