@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+### Changed
+
+- VI icons to be consistent with other add-ons and toolkits, i.e. smaller header.
+- On-disk and project organization to be consistent with other add-ons, toolkits, and modules.
+
 ## [1.8.1] - 2018-01-02
 
 ### Changed
