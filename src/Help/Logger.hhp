@@ -1,6 +1,6 @@
 [OPTIONS]
 Compatibility=1.1 or later
-Compiled file=Logger.chm
+Compiled file=..\..\builds\Help\Logger.chm
 Contents file=Table of Contents.hhc
 Default topic=pages\Readme.html
 Display compile progress=No
@@ -9,4 +9,6 @@ Index file=Index.hhk
 Language=0x409 English (United States)
 Title=Logger
 
+
 [INFOTYPES]
+
