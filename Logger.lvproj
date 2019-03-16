@@ -103,7 +103,6 @@
 				<Item Name="IB_RW_Project_PropBag_Action.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_RW_Project_PropBag_Action.ctl"/>
 				<Item Name="Invoke BuildTarget.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Invoke BuildTarget.vi"/>
 				<Item Name="Is Name Multiplatform.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Is Name Multiplatform.vi"/>
-				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Labricator.lvlib" Type="Library" URL="/&lt;vilib&gt;/Field R&amp;D Services/Labricator/Toolkit/Labricator.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -201,8 +200,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/Examples</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{76DD8FFF-709C-4C15-AC00-AD8105B54238}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">62</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">8</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Examples</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -263,13 +264,15 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/Toolkit</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{06B378F5-8C3F-4924-A9C2-55D1006419E6}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">62</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">8</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Toolkit</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Toolkit/Support VIs</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Toolkit/Support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[2].destName" Type="Str">Controls</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/Toolkit/Controls</Property>
@@ -278,7 +281,7 @@
 				<Property Name="Destination[3].path" Type="Path">../builds/Toolkit/API</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5813E072-A43A-41F6-98F7-98868B89EEA2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B9660577-45C5-4B6C-8948-AC04D88B33DE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Toolkit.lvlib</Property>
@@ -287,13 +290,19 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Support/File.lvlib/Action.ctl</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Support/File.lvlib/File Action.ctl</Property>
 				<Property Name="Source[10].newName" Type="Str">File_Action.ctl</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Support/File.lvlib/Manager.vi</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Support/File.lvlib/File Manager.vi</Property>
 				<Property Name="Source[11].newName" Type="Str">File_Manager.vi</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Initialize.vi</Property>
+				<Property Name="Source[12].type" Type="Str">VI</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Shutdown.vi</Property>
+				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Scripts.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -333,10 +342,10 @@
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Support</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Support/Error.lvlib/Action.ctl</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Support/Error.lvlib/Error Action.ctl</Property>
 				<Property Name="Source[9].newName" Type="Str">Error_Action.ctl</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">12</Property>
+				<Property Name="SourceCount" Type="Int">14</Property>
 			</Item>
 		</Item>
 	</Item>
