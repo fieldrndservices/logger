@@ -11,6 +11,7 @@ This repository is just a mirror of the source code and project files to make it
 - [HTML Help Workshop](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/htmlhelp/microsoft-html-help-downloads) (for compiling the help documentation)
 - LabVIEW 2009 or newer (for building)
 - LabVIEW 2017 or newer (for development)
+- Labricator (only for automated builds, private package)
 - [VIPM Pro](https://vipm.jki.net/get) (only for automated builds)
 - [VIPM API](https://support.jki.net/hc/en-us/articles/214136183-VIPM-API) (only for automated builds)
 
