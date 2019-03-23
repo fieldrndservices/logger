@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Added
 
+- New product and palette icon
 - Building package for LabVIEW 2009 by default
 - Automated build and packaging scripts
 
