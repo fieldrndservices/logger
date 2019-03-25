@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+## [1.8.2] - 2019-03-25
+
 ### Added
 
 - New product and palette icon

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-03-23 15:37:34" Creator="cfield" Comments="" ID="e7fa8aa1543556d568fa829a786da3b4">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-03-25 16:26:14" Creator="cfield" Comments="" ID="c6184b020f3211c410542c03cbc7c9ae">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.8.1.63</Library_Version>
+    <Library_Version>1.8.2.63</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -34,14 +34,18 @@
       <URL>http://sine.ni.com/nips/cds/view/p/lang/en/nid/215388</URL>
       <Release_Notes># Field R&amp;D Services: Logger
 
-## [1.8.1] - 2018-01-02
+## [1.8.2] - 2019-03-25
+
+### Added
+
+- New product and palette icon
+- Building package for LabVIEW 2009 by default
+- Automated build and packaging scripts
 
 ### Changed
 
-- Window appearance VI names to match `Initialize` and `Shutdown` VIs.
-- The help documentation style to be consistent with LabVIEW's help.
-- The Table of Contents (TOC) for help documentation to be consistent with Instrument Plug-n-Play documentation.
-- On-disk organization of help files to be consistent with website projects.</Release_Notes>
+- VI icons to be consistent with other add-ons and toolkits, i.e. smaller header.
+- On-disk and project organization to be consistent with other add-ons, toolkits, and modules.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -325,7 +329,7 @@
         <Path>..\builds\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>117E0400BCEC43800D7D739CA54F1CDD</GUID>
+      <GUID>1799FA293001C8A72062ABD388B48FF3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -500,7 +504,7 @@
         <Path>..\builds\Toolkit\API\Unregister Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B94DD12BA37841B75F6F915E80BA09FC</GUID>
+      <GUID>22EF182C3D03025FAE32124FA3BA9590</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -661,7 +665,7 @@
         <Path>..\builds\Toolkit\API\Configure User-Defined Descriptions.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D2A29D25CD18F474C7DD36CC7E4752F6</GUID>
+      <GUID>7D8C22381F8AB5B212F46EA96404F389</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -696,7 +700,7 @@
         <Path>..\builds\Toolkit\API\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EAD0247DB6A5964D1D254A1B64E29894</GUID>
+      <GUID>912DCC5E50515ACE812D1A924089A7C5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -787,7 +791,7 @@
         <Path>..\builds\Toolkit\API\Disable Default File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F283BA15347EF562CF18879266B9B84D</GUID>
+      <GUID>D687D111010229F1E51E526AD18610D4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
