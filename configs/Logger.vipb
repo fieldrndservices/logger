@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-03-25 16:28:39" Creator="cfield" Comments="" ID="985d8c745a304dfb3f46b701ff51d031">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-03-25 17:37:23" Creator="cfield" Comments="" ID="1239bb3c1801a4da171d55e67905f0c9">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.8.2.64</Library_Version>
+    <Library_Version>1.8.2.68</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -127,12 +127,6 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Toolkit/Logger.lvlib</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
         <Path>Toolkit/Controls</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
@@ -150,6 +144,12 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Toolkit.lvlib</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -159,6 +159,11 @@
         <Path>.</Path>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>Toolkit/Toolkit.lvlib</Path>
+        <Namespace_Type>Prefix</Namespace_Type>
+        <Namespace>Field_RnD_Services_Logger_</Namespace>
       </Namespace_Overrides>
     </Source_Files>
     <License_Agreement_Filepath>..\docs\LICENSE.txt</License_Agreement_Filepath>
@@ -329,7 +334,7 @@
         <Path>..\builds\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AD6F4EE765C2004E917007314D9EC0EA</GUID>
+      <GUID>61AF7A7384B4188C8F793F632345894B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -504,7 +509,7 @@
         <Path>..\builds\Toolkit\API\Unregister Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>987A911B7E7F6A359436BCD7DCBEBD5B</GUID>
+      <GUID>456A4E3E152D1068BBBFD7B4244281A9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -665,7 +670,7 @@
         <Path>..\builds\Toolkit\API\Configure User-Defined Descriptions.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B16B65B4AAF3117948C2E5A7EA95F495</GUID>
+      <GUID>9FE056C9DB49365E9061BCE20136A6E7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -700,7 +705,7 @@
         <Path>..\builds\Toolkit\API\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>20A1BB4B65E4903827B071C9055A71E0</GUID>
+      <GUID>BB4DF24BB69C8C03675095A4A822D1AE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -791,7 +796,7 @@
         <Path>..\builds\Toolkit\API\Disable Default File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CBCE96EFA03A56D6CEB4A316D417BA8B</GUID>
+      <GUID>415C544D8CEDD740573AC3EA763E9A13</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
