@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
+<html>
+<head>
+<title>Configure Prune All VI</title>
+<meta name="Author" content="Field R&D Services, LLC">
+<meta name="generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
+<link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
+</head>
+<body bgcolor="#ffffff">
+<div id="styleDivTitle">
+<h1>Configure Prune All VI</h1>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Configure/Configure.html">Configure VIs</a></p>
+<p class="Body"><strong>Requires:</strong> Logger</p>
+<P class="Body">Sets the flag to prune, i.e. delete, all files greater than the maximum file count. For example, if there are ten (10) files on disk, and the maximum file count is set to two (2) and this is <strong>true</strong>, then the eight (8) oldest log files will be deleted. If this <strong>false</strong>, then the eight (8) oldest log files will remain on disk, but rollover of two files will continue. The default is <strong>false</strong> because this was the default behavior before the addition of this feature.</p>
+<p class="Anchor"><img src="/images/Logger_lvlib_Configure_Prune_Allc.png" alt="Configure Prune All VI"></p>
+</div>
+<div id="styleDivScrolling">
+<table class="Borderless">
+<tr>
+<td class="Icon"><img src="/images/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality.</td>
+</tr>
+<tr>
+<td><img src="/images/cbool.png" alt="cbool"></td>
+<TD><strong>Prune All</strong> indicates whether to delete all log files on disk in excess of the maximum file count (<strong>true</strong>) or just the oldest (<strong>false</strong>).</td>
+</tr>
+<tr>
+<td><img src="/images/ierrcodeclst.png" alt="ierrcodeclst"></TD>
+<td><strong>Error Out</strong> contains error information. This output provides standard error out functionality.</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
