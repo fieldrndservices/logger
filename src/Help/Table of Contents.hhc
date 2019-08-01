@@ -105,6 +105,10 @@
 				<param name="Local" value="pages/Configure/Configure_Maximum_File_Size.html">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Configure Prune All">
+				<param name="Local" value="pages/Configure/Configure_Prune_All.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Configure Root Folder">
 				<param name="Local" value="pages/Configure/Configure_Root_Folder.html">
 				</OBJECT>
