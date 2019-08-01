@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-08-01 16:31:12" Creator="cfield" Comments="" ID="6d1fc93e7ad073548f2c10d79ce67502">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-08-01 16:45:58" Creator="cfield" Comments="" ID="8a9293ca68df159cd09392fc6aa92cf5">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.9.0.72</Library_Version>
+    <Library_Version>1.9.0.73</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -44,13 +44,11 @@
 
 ### Changed
 
-- Starting file logging in background to use Start Asynchronous Call instead of an invoke node
 - Toolkit source distribution build specification to maintain on-disk organization in deployment 
 
 ### Fixed
 
 - Pruning only files with the CSV extension
-- Error when running file logging in background as a sub-VI within an executable
 - Simple example browsing for a file instead of a folder</Release_Notes>
     </Description>
     <Destinations>
@@ -388,7 +386,7 @@
         <Path>..\builds\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>44F48C03356BFFCE43D13162F9FCAC61</GUID>
+      <GUID>DBAE573BCBE608C1FC1655F67E5E1D88</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -563,7 +561,7 @@
         <Path>..\builds\Toolkit\Action-Status\Unregister Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C172FE6F1176D9D336F0E9CF87A82DA6</GUID>
+      <GUID>109C703CC743895B6F3BF4885CA7C439</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -738,7 +736,7 @@
         <Path>..\builds\Toolkit\Configure\Configure Prune All.vi</Path>
         <VI_Title>Configure Prune All</VI_Title>
       </Items_Data>
-      <GUID>AE7EFCC23D977972B13EF16821E4B78A</GUID>
+      <GUID>8582E28A0E1CE662A0CD9D728263BE4D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -773,7 +771,7 @@
         <Path>..\builds\Toolkit\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6FA7DD71913E5128683688B639479A33</GUID>
+      <GUID>89246D514692CAB33F9E2BE964B2C1F6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -864,7 +862,7 @@
         <Path>..\builds\Toolkit\Utility\Disable Default File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8052BFCBA8881F6C0B539BC4CF9CF7CA</GUID>
+      <GUID>E5405469ABB28979F18651C1E5EB9D3D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
