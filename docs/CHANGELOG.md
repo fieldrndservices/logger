@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+## [1.8.3] - 2019-08-01
+
 ### Added
 
 - Documentation files to the Toolkit source distribution build specification
