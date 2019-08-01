@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-03-25 17:37:23" Creator="cfield" Comments="" ID="1239bb3c1801a4da171d55e67905f0c9">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-08-01 15:10:53" Creator="cfield" Comments="" ID="1178f5546d7b8bc29f92f090331a1184">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.8.2.68</Library_Version>
+    <Library_Version>1.8.3.68</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -34,18 +34,20 @@
       <URL>http://sine.ni.com/nips/cds/view/p/lang/en/nid/215388</URL>
       <Release_Notes># Field R&amp;D Services: Logger
 
-## [1.8.2] - 2019-03-25
+## [1.8.3] - 2019-08-01
 
 ### Added
 
-- New product and palette icon
-- Building package for LabVIEW 2009 by default
-- Automated build and packaging scripts
+- Documentation files to the Toolkit source distribution build specification
+- README to project documentation and Toolkit source distribution
 
 ### Changed
 
-- VI icons to be consistent with other add-ons and toolkits, i.e. smaller header.
-- On-disk and project organization to be consistent with other add-ons, toolkits, and modules.</Release_Notes>
+- Toolkit source distribution build specification to maintain on-disk organization in deployment 
+
+### Fixed
+
+- Pruning only files with the CSV extension</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -123,18 +125,6 @@
       <Destination_Overrides>
         <Path>Help/Logger.chm</Path>
         <Destination>4</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Toolkit/Controls</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Toolkit/API</Path>
-        <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -261,7 +251,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Initialize.vi</Path>
+        <Path>..\builds\Toolkit\Initialize.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -275,7 +265,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Shutdown.vi</Path>
+        <Path>..\builds\Toolkit\Shutdown.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -334,7 +324,7 @@
         <Path>..\builds\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>61AF7A7384B4188C8F793F632345894B</GUID>
+      <GUID>9AD54D2E39931144EE1EC52F3DA8EB70</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -366,7 +356,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Debug.vi</Path>
+        <Path>..\builds\Toolkit\Action-Status\Debug.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -380,7 +370,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Error.vi</Path>
+        <Path>..\builds\Toolkit\Action-Status\Error.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -394,7 +384,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Fatal.vi</Path>
+        <Path>..\builds\Toolkit\Action-Status\Fatal.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -408,7 +398,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Info.vi</Path>
+        <Path>..\builds\Toolkit\Action-Status\Info.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -422,7 +412,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Trace.vi</Path>
+        <Path>..\builds\Toolkit\Action-Status\Trace.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -436,7 +426,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Warn.vi</Path>
+        <Path>..\builds\Toolkit\Action-Status\Warn.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -450,7 +440,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\File Start.vi</Path>
+        <Path>..\builds\Toolkit\Action-Status\File Start.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -464,7 +454,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\File Run.vi</Path>
+        <Path>..\builds\Toolkit\Action-Status\File Run.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -478,7 +468,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\File Stop.vi</Path>
+        <Path>..\builds\Toolkit\Action-Status\File Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -492,7 +482,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Register Listener.vi</Path>
+        <Path>..\builds\Toolkit\Action-Status\Register Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -506,10 +496,10 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Unregister Listener.vi</Path>
+        <Path>..\builds\Toolkit\Action-Status\Unregister Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>456A4E3E152D1068BBBFD7B4244281A9</GUID>
+      <GUID>9DB0D09CF2FBCE908DFBC43FF17E467E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -541,7 +531,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Configure Level.vi</Path>
+        <Path>..\builds\Toolkit\Configure\Configure Level.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -555,7 +545,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Configure Verbosity.vi</Path>
+        <Path>..\builds\Toolkit\Configure\Configure Verbosity.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -569,7 +559,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Configure Root Folder.vi</Path>
+        <Path>..\builds\Toolkit\Configure\Configure Root Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -583,7 +573,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Configure Calendar Folder Tree.vi</Path>
+        <Path>..\builds\Toolkit\Configure\Configure Calendar Folder Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -597,7 +587,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Configure Maximum File Size.vi</Path>
+        <Path>..\builds\Toolkit\Configure\Configure Maximum File Size.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -611,7 +601,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Configure Maximum File Count.vi</Path>
+        <Path>..\builds\Toolkit\Configure\Configure Maximum File Count.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -625,7 +615,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Configure File Extension.vi</Path>
+        <Path>..\builds\Toolkit\Configure\Configure File Extension.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -639,7 +629,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Configure File.vi</Path>
+        <Path>..\builds\Toolkit\Configure\Configure File.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -653,7 +643,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Configure User-Defined Codes.vi</Path>
+        <Path>..\builds\Toolkit\Configure\Configure User-Defined Codes.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -667,10 +657,10 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Configure User-Defined Descriptions.vi</Path>
+        <Path>..\builds\Toolkit\Configure\Configure User-Defined Descriptions.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9FE056C9DB49365E9061BCE20136A6E7</GUID>
+      <GUID>D6DD1FBE325E4156BD332413F98F02D6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -702,10 +692,10 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Read Listener.vi</Path>
+        <Path>..\builds\Toolkit\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BB4DF24BB69C8C03675095A4A822D1AE</GUID>
+      <GUID>7FE4D30046ED7C11DAA6ADF30B2511D4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -737,7 +727,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Catch Error.vi</Path>
+        <Path>..\builds\Toolkit\Utility\Catch Error.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -751,7 +741,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Mask Errors.vi</Path>
+        <Path>..\builds\Toolkit\Utility\Mask Errors.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -765,7 +755,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Create Temporary Root Folder.vi</Path>
+        <Path>..\builds\Toolkit\Utility\Create Temporary Root Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -779,7 +769,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Create Statement CSV.vi</Path>
+        <Path>..\builds\Toolkit\Utility\Create Statement CSV.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -793,10 +783,10 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Disable Default File.vi</Path>
+        <Path>..\builds\Toolkit\Utility\Disable Default File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>415C544D8CEDD740573AC3EA763E9A13</GUID>
+      <GUID>2753C7A9AE3F46887D0E2A711E2C4AD7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
