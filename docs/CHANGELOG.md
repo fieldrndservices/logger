@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+### Fixed
+
+- Pruning only files with the CSV extension
+
 ## [1.8.2] - 2019-03-25
 
 ### Added
