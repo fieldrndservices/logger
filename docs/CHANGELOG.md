@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+### Added
+
+- Documentation files to the Toolkit source distribution build specification
+- README to project documentation and Toolkit source distribution
+
+### Changed
+
+- Toolkit source distribution build specification to maintain on-disk organization in deployment 
+
 ### Fixed
 
 - Pruning only files with the CSV extension
