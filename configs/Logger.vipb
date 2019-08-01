@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-08-01 15:54:07" Creator="cfield" Comments="" ID="261902b5e522358325f48aba33cc13f6">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-08-01 16:28:15" Creator="cfield" Comments="" ID="69c09677b3bc3cd6f7f2162026fa7e37">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.9.0.70</Library_Version>
+    <Library_Version>1.9.0.71</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -44,11 +44,14 @@
 
 ### Changed
 
+- Starting file logging in background to use Start Asynchronous Call instead of an invoke node
 - Toolkit source distribution build specification to maintain on-disk organization in deployment 
 
 ### Fixed
 
-- Pruning only files with the CSV extension</Release_Notes>
+- Pruning only files with the CSV extension
+- Error when running file logging in background as a sub-VI within an executable
+- Simple example browsing for a file instead of a folder</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -385,7 +388,7 @@
         <Path>..\builds\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E775C23305EECD1D7D2BFEC438EA632</GUID>
+      <GUID>A909E30915681E4B3CAD432C8BF1E0EB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -560,7 +563,7 @@
         <Path>..\builds\Toolkit\Action-Status\Unregister Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8B0AFCD908266277CA2740E7466984A8</GUID>
+      <GUID>F45B4AC71D3577473FAE0106C7CFEB99</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -724,7 +727,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Configure Maximum File Count</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Configure Prune All</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -735,7 +738,7 @@
         <Path>..\builds\Toolkit\Configure\Configure Prune All.vi</Path>
         <VI_Title>Configure Prune All</VI_Title>
       </Items_Data>
-      <GUID>1D2740FA5A87E6FC5E7EAB52DD1B1115</GUID>
+      <GUID>81F1BCFFE176142AE42FD4C26A9B7689</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -770,7 +773,7 @@
         <Path>..\builds\Toolkit\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>653491868CC02816D7070D00E81431EB</GUID>
+      <GUID>AEEE31580D8E81883AC62684365C002D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -861,7 +864,7 @@
         <Path>..\builds\Toolkit\Utility\Disable Default File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>048AF6E7C268B770C3DF5A7532E75606</GUID>
+      <GUID>3C7DAB54E36D088A278F99D453AD79CC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
