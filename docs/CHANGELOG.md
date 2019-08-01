@@ -4,10 +4,11 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
-## [1.8.3] - 2019-08-01
+## [1.9.0] - 2019-08-01
 
 ### Added
 
+- The "Prune All" configuration to remove all excessive log files on prune
 - Documentation files to the Toolkit source distribution build specification
 - README to project documentation and Toolkit source distribution
 
@@ -18,6 +19,7 @@ All notable changes to this project will be documented in this file, which is wr
 ### Fixed
 
 - Pruning only files with the CSV extension
+- Simple example browsing for file instead of a folder
 
 ## [1.8.2] - 2019-03-25
 
