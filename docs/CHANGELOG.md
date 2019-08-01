@@ -14,13 +14,11 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Changed
 
-- Starting file logging in background to use Start Asynchronous Call instead of an invoke node
 - Toolkit source distribution build specification to maintain on-disk organization in deployment 
 
 ### Fixed
 
 - Pruning only files with the CSV extension
-- Error when running file logging in background as a sub-VI within an executable
 - Simple example browsing for a file instead of a folder
 
 ## [1.8.2] - 2019-03-25
