@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+### Added
+
+- Delimiter optional control to Create Statement CSV VI
+
+### Changed
+
+- `Create Statement CSV` VI name to `Create Statement Line`
+
 ## [1.9.0] - 2019-08-01
 
 ### Added
