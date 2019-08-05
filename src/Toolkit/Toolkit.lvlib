@@ -72,6 +72,7 @@
 		<Item Name="Disable Default File.vi" Type="VI" URL="../Utility/Disable Default File.vi"/>
 		<Item Name="Mask Errors.vi" Type="VI" URL="../Utility/Mask Errors.vi"/>
 	</Item>
+	<Item Name="Configure Delimiter.vi" Type="VI" URL="../Configure/Configure Delimiter.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
 	<Item Name="Shutdown.vi" Type="VI" URL="../Shutdown.vi"/>
 </Library>
