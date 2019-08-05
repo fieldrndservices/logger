@@ -21,10 +21,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Configs" Type="Folder">
+		<Item Name="Configurations" Type="Folder">
 			<Item Name="Logger.vipb" Type="Document" URL="../configs/Logger.vipb"/>
 		</Item>
-		<Item Name="Docs" Type="Folder">
+		<Item Name="Documentation" Type="Folder">
+			<Item Name="AUTHORS.txt" Type="Document" URL="../docs/AUTHORS.txt"/>
 			<Item Name="CHANGELOG.md" Type="Document" URL="../docs/CHANGELOG.md"/>
 			<Item Name="LICENSE.txt" Type="Document" URL="../docs/LICENSE.txt"/>
 			<Item Name="README.md" Type="Document" URL="../README.md"/>
@@ -217,7 +218,7 @@
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Configs</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Configurations</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
@@ -233,7 +234,7 @@
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Docs</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Documentation</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
@@ -291,10 +292,10 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Docs/LICENSE.txt</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Documentation/LICENSE.txt</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Docs/README.md</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Documentation/README.md</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Scripts.lvlib</Property>
@@ -310,7 +311,7 @@
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Configs</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Configurations</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
@@ -328,7 +329,7 @@
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Support/File.lvlib/Manager.vi</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Docs/CHANGELOG.md</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Documentation/CHANGELOG.md</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">12</Property>
 			</Item>

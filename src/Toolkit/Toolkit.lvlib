@@ -29,6 +29,7 @@
 		<Item Name="Configure Level.vi" Type="VI" URL="../Configure/Configure Level.vi"/>
 		<Item Name="Configure Maximum File Count.vi" Type="VI" URL="../Configure/Configure Maximum File Count.vi"/>
 		<Item Name="Configure Maximum File Size.vi" Type="VI" URL="../Configure/Configure Maximum File Size.vi"/>
+		<Item Name="Configure Prune All.vi" Type="VI" URL="../Configure/Configure Prune All.vi"/>
 		<Item Name="Configure Root Folder.vi" Type="VI" URL="../Configure/Configure Root Folder.vi"/>
 		<Item Name="Configure User-Defined Codes.vi" Type="VI" URL="../Configure/Configure User-Defined Codes.vi"/>
 		<Item Name="Configure User-Defined Descriptions.vi" Type="VI" URL="../Configure/Configure User-Defined Descriptions.vi"/>
@@ -71,7 +72,6 @@
 		<Item Name="Disable Default File.vi" Type="VI" URL="../Utility/Disable Default File.vi"/>
 		<Item Name="Mask Errors.vi" Type="VI" URL="../Utility/Mask Errors.vi"/>
 	</Item>
-	<Item Name="Configure Prune All.vi" Type="VI" URL="../Configure/Configure Prune All.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
 	<Item Name="Shutdown.vi" Type="VI" URL="../Shutdown.vi"/>
 </Library>

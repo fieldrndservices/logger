@@ -6,7 +6,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Added
 
-- Delimiter optional control to Create Statement CSV VI
+- Escaping double-quotes in message field for a statement
+- Delimiter optional control to `Create Statement Line` VI
+- Optional `Time Stamp Format` control to `Create Statement Line` VI
+- Authors documentation
 
 ### Changed
 
