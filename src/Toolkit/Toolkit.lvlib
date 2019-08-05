@@ -66,7 +66,7 @@
 	<Item Name="Utility" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Catch Error.vi" Type="VI" URL="../Utility/Catch Error.vi"/>
-		<Item Name="Create Statement CSV.vi" Type="VI" URL="../Utility/Create Statement CSV.vi"/>
+		<Item Name="Create Statement Line.vi" Type="VI" URL="../Utility/Create Statement Line.vi"/>
 		<Item Name="Create Temporary Root Folder.vi" Type="VI" URL="../Utility/Create Temporary Root Folder.vi"/>
 		<Item Name="Disable Default File.vi" Type="VI" URL="../Utility/Disable Default File.vi"/>
 		<Item Name="Mask Errors.vi" Type="VI" URL="../Utility/Mask Errors.vi"/>
