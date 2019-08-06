@@ -24,6 +24,7 @@
 	<Item Name="Configure" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Configure Calendar Folder Tree.vi" Type="VI" URL="../Configure/Configure Calendar Folder Tree.vi"/>
+		<Item Name="Configure Delimiter.vi" Type="VI" URL="../Configure/Configure Delimiter.vi"/>
 		<Item Name="Configure File Extension.vi" Type="VI" URL="../Configure/Configure File Extension.vi"/>
 		<Item Name="Configure File.vi" Type="VI" URL="../Configure/Configure File.vi"/>
 		<Item Name="Configure Level.vi" Type="VI" URL="../Configure/Configure Level.vi"/>
@@ -72,7 +73,6 @@
 		<Item Name="Disable Default File.vi" Type="VI" URL="../Utility/Disable Default File.vi"/>
 		<Item Name="Mask Errors.vi" Type="VI" URL="../Utility/Mask Errors.vi"/>
 	</Item>
-	<Item Name="Configure Delimiter.vi" Type="VI" URL="../Configure/Configure Delimiter.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
 	<Item Name="Shutdown.vi" Type="VI" URL="../Shutdown.vi"/>
 </Library>

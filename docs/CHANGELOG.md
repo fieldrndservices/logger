@@ -13,7 +13,12 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Changed
 
+- Minimum supported version to LabVIEW 2010
 - `Create Statement CSV` VI name to `Create Statement Line`
+
+### Removed
+
+- Support for LabVIEW 2009
 
 ## [1.9.0] - 2019-08-01
 
