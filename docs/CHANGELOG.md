@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file, which is wr
 - Delimiter optional control to `Create Statement Line` VI
 - Optional `Time Stamp Format` control to `Create Statement Line` VI
 - Authors documentation
+- Tests
 
 ### Changed
 
