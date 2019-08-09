@@ -3,3 +3,4 @@
 *.lvlps
 builds
 target
+src/Help/Logger.log
