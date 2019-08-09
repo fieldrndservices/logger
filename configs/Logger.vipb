@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-08-06 11:35:30" Creator="cfield" Comments="" ID="4951b43ad812ba31525693340c1742f7">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-08-09 15:00:15" Creator="cfield" Comments="" ID="3852c2e14e7c71766339553dda4f3a19">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
     <Library_Version>1.10.0.74</Library_Version>
@@ -126,12 +126,6 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Help/Logger.chm</Path>
-        <Destination>4</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
         <Path>Toolkit/Toolkit.lvlib</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
@@ -199,6 +193,12 @@
       </Destination_Overrides>
       <Destination_Overrides>
         <Path>Toolkit/Shutdown.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/AUTHORS.txt</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
@@ -387,7 +387,7 @@
         <Path>..\builds\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>75DC0B711D4287009B3F8BDF5F593071</GUID>
+      <GUID>45D535F2F48F491E1FC17D23F656F82B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -562,7 +562,7 @@
         <Path>..\builds\Toolkit\Action-Status\Unregister Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E970AA682BA2816B614DF0AC5E91CA43</GUID>
+      <GUID>E670D3CD85511CA9AD8DB7D94BB96498</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -751,7 +751,7 @@
         <Path>..\builds\Toolkit\Configure\Configure Delimiter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>64DFBC6817F961DD3F7C791C4454DF4C</GUID>
+      <GUID>6662C64C2364A4465F146FABBA74EA65</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -786,7 +786,7 @@
         <Path>..\builds\Toolkit\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1258FBAA9D59AFAA13D1AA9E13227D23</GUID>
+      <GUID>F9BB013D6A3EFE4BB02E632B2FFC3255</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -852,20 +852,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create Statement CSV</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Utility\Create Statement CSV.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Disable Default File</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -877,7 +863,21 @@
         <Path>..\builds\Toolkit\Utility\Disable Default File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CBBCEC82B9F61B5141DBCC1EDE49FC0C</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Create Statement CSV</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\Utility\Create Statement Line.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>34660652D2FE1D69A5702B7908E6A4A7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
