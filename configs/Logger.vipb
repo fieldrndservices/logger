@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-08-09 17:18:05" Creator="cfield" Comments="" ID="67a163f91d72e48c30b883dbb42292e2">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-08-12 14:23:07" Creator="cfield" Comments="" ID="c3933fecf88dd4ac450d784cd4f9b7df">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
     <Library_Version>1.10.0.75</Library_Version>
@@ -34,7 +34,7 @@
       <URL>http://sine.ni.com/nips/cds/view/p/lang/en/nid/215388</URL>
       <Release_Notes># Field R&amp;D Services: Logger
 
-## [1.10.0] - 2019-08-06
+## [1.10.0] - 2019-08-12
 
 ### Added
 
@@ -387,7 +387,7 @@
         <Path>..\builds\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8B59B8E064B8FD1984B17E077AD456B3</GUID>
+      <GUID>92A54608B45CE66B5ABE08CC8767B4FA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -562,7 +562,7 @@
         <Path>..\builds\Toolkit\Action-Status\Unregister Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0DDE3B4B828013296B3065EC03364791</GUID>
+      <GUID>67B05F40F76A8D5EECEFE05344ECE81C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -751,7 +751,7 @@
         <Path>..\builds\Toolkit\Configure\Configure Delimiter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4BF988E66E5BA98262DA34E34DFF7E8F</GUID>
+      <GUID>04875C0294565E4546B114B5A6F6F8D1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -786,7 +786,7 @@
         <Path>..\builds\Toolkit\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E2BD4B1F1880AE084548B2CE97A1024F</GUID>
+      <GUID>A4671EEACE7A58A8EC7396067EA6158B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -877,7 +877,7 @@
         <Path>..\builds\Toolkit\Utility\Create Statement Line.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3244BB65E1023D763EF2B9D18E04AB8B</GUID>
+      <GUID>85A1C1D0FDDDF27699EEE98B3DAB41B3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

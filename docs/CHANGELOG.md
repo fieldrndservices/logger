@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+## [1.10.0] - 2019-08-12
+
 ### Added
 
 - Escaping double-quotes in message field for a statement
