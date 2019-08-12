@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-08-12 14:23:07" Creator="cfield" Comments="" ID="c3933fecf88dd4ac450d784cd4f9b7df">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-08-12 14:37:06" Creator="cfield" Comments="" ID="328225c7a3b9ed984dd74838a8da2671">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.10.0.75</Library_Version>
+    <Library_Version>1.10.0.76</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -203,6 +203,12 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Help/Logger.chm</Path>
+        <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -387,7 +393,7 @@
         <Path>..\builds\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>92A54608B45CE66B5ABE08CC8767B4FA</GUID>
+      <GUID>80A9FF2C157C9B790559B4E33D395FDE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -562,7 +568,7 @@
         <Path>..\builds\Toolkit\Action-Status\Unregister Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>67B05F40F76A8D5EECEFE05344ECE81C</GUID>
+      <GUID>21659DC8756ABCE871100696B89132E4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -751,7 +757,7 @@
         <Path>..\builds\Toolkit\Configure\Configure Delimiter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>04875C0294565E4546B114B5A6F6F8D1</GUID>
+      <GUID>3713E68E9ABC7E4218D2315FA6633C61</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -786,7 +792,7 @@
         <Path>..\builds\Toolkit\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A4671EEACE7A58A8EC7396067EA6158B</GUID>
+      <GUID>5BAD18762ED00ECD11C04A9804131E50</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -877,7 +883,7 @@
         <Path>..\builds\Toolkit\Utility\Create Statement Line.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>85A1C1D0FDDDF27699EEE98B3DAB41B3</GUID>
+      <GUID>D25513A51EA3378525C436508164B8FE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
