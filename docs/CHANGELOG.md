@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+### Added
+
+- VI descriptions to type definitions
+
+### Changed
+
+- The copyright year in the EULA and license to comply with NI Tools Network requirements
+
 ## [1.10.0] - 2019-08-12
 
 ### Added
