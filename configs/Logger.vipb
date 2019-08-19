@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-08-12 14:40:04" Creator="cfield" Comments="" ID="da21c44af87e3c1e75ebcbb5b3cbf8d7">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-08-19 11:34:51" Creator="cfield" Comments="" ID="84c65ea3af3c60578ac63f378d47d33d">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
     <Library_Version>1.10.0.77</Library_Version>
@@ -29,7 +29,7 @@
     <Description>
       <One_Line_Description_Summary>A simple logging utility similar to Log4j but for LabVIEW</One_Line_Description_Summary>
       <Description>A simple logging utility similar to the Log4j library but for LabVIEW. Levels are provided for different logging statements: TRACE, DEBUG, INFO, WARN, ERROR, and FATAL. The higher the level, the more statements that are written to a file. The creation of "rollover" log files is supported along with organizing log files by Year, Month, and Day folder tree. Minimal error handling VIs are provided for logging or masking errors based on severity. The utility is known to work with 32-bit and 64-bit environments as well as Real-Time targets. Writing to a log file is done on a separate thread to maintain determinism on Real-Time targets.</Description>
-      <Copyright>Copyright (c) 2014, Field R&amp;D Services, LLC</Copyright>
+      <Copyright>Copyright (c) 2019, Field R&amp;D Services, LLC</Copyright>
       <Packager>Christopher R. Field</Packager>
       <URL>http://sine.ni.com/nips/cds/view/p/lang/en/nid/215388</URL>
       <Release_Notes># Field R&amp;D Services: Logger
@@ -393,7 +393,7 @@
         <Path>..\builds\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>188BD86AF184CBC6EFADC039C7CBCED6</GUID>
+      <GUID>C74C2799B49386267F5F6C80791D8BC0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -568,7 +568,7 @@
         <Path>..\builds\Toolkit\Action-Status\Unregister Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>541A84DBA49F2CAF29394D2210E23817</GUID>
+      <GUID>3CF2A3E51187F5322B6FA7813C74C1A7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -757,7 +757,7 @@
         <Path>..\builds\Toolkit\Configure\Configure Delimiter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>73F9CB28B1054911D59EF3C17C98D079</GUID>
+      <GUID>38190A6A5B72DFCDB8B8DC5E2EB1E565</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -792,7 +792,7 @@
         <Path>..\builds\Toolkit\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A6168DACEF239A8BC381B98E4918B0DC</GUID>
+      <GUID>AC7E0EEA30AC41A5DDBB07E37D906E84</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -883,7 +883,7 @@
         <Path>..\builds\Toolkit\Utility\Create Statement Line.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>69CE7410756018D366C935332C2B21D4</GUID>
+      <GUID>ECA219C17DF70437B9C868AD2B35949F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
