@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-08-19 11:34:51" Creator="cfield" Comments="" ID="84c65ea3af3c60578ac63f378d47d33d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2019-08-20 15:37:54" Creator="cfield" Comments="" ID="8c8c03e73fd4384ae2dfcd5490d905b5">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
-    <Library_Version>1.10.0.77</Library_Version>
+    <Library_Version>1.10.1.77</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -34,23 +34,17 @@
       <URL>http://sine.ni.com/nips/cds/view/p/lang/en/nid/215388</URL>
       <Release_Notes># Field R&amp;D Services: Logger
 
-## [1.10.0] - 2019-08-12
+## [1.10.1] - 2019-08-20
 
 ### Added
 
-- Escaping double-quotes in message field for a statement
-- Delimiter optional control to `Create Statement Line` VI
-- Optional `Time Stamp Format` control to `Create Statement Line` VI
-- Authors documentation
+- VI descriptions to type definitions
 
 ### Changed
 
-- Minimum supported version to LabVIEW 2010
-- `Create Statement CSV` VI name to `Create Statement Line`
+- The copyright year in the EULA and license
 
-### Removed
-
-- Support for LabVIEW 2009</Release_Notes>
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -393,7 +387,7 @@
         <Path>..\builds\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C74C2799B49386267F5F6C80791D8BC0</GUID>
+      <GUID>9BE35F9AF29E685FB11DC23E9F212BF0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -568,7 +562,7 @@
         <Path>..\builds\Toolkit\Action-Status\Unregister Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3CF2A3E51187F5322B6FA7813C74C1A7</GUID>
+      <GUID>AC41B2098583D0A69EAC85A5DD7F2F27</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -757,7 +751,7 @@
         <Path>..\builds\Toolkit\Configure\Configure Delimiter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>38190A6A5B72DFCDB8B8DC5E2EB1E565</GUID>
+      <GUID>9617120D5D01CCE59A0A421852F2E3EB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -792,7 +786,7 @@
         <Path>..\builds\Toolkit\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AC7E0EEA30AC41A5DDBB07E37D906E84</GUID>
+      <GUID>030B61F09F348994827C2B98F235ED8F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -883,7 +877,7 @@
         <Path>..\builds\Toolkit\Utility\Create Statement Line.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ECA219C17DF70437B9C868AD2B35949F</GUID>
+      <GUID>504643C3EA5060C108D3E9304929F8D0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

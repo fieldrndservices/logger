@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+## [1.10.1] - 2019-08-20
+
 ### Added
 
 - VI descriptions to type definitions
