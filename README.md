@@ -21,7 +21,13 @@ The Caraya, JKI State Machine, OpenG Array Library, OpenG File Library, and VIPM
 
 ## Installation
 
-A VI Package (VIP) is available on the NI's [LabVIEW Tools Network](http://www.ni.com/labview-tools-network/). It is recommended to use the [VI Package Manager](https://vipm.jki.net/) published by [JKI](http://jki.net/) to install and update the library. The library can also be installed by: (i) downloading the source code and building the VIP, (ii) downloading a VIP from the [releases](https://github.com/fieldrndservices/logger/releases) section of this project, (iii) manually copying the VIs from the source code into a project, or (iv) requesting a VIP from the authors.
+A [VI Package (VIP)](https://www.vipm.io/package/field_rnd_services_logger/) is available at [VIPM.io](https://www.vipm.io). The recommended installation instruction is to:
+
+1. Navigate to the [Logger package](https://www.vipm.io/package/field_rnd_services_logger/) at [VIPM.io](https://www.vipm.io/).
+2. Click on the _Install_ button to the right. The [VI Package Manager (VIPM)](https://www.vipm.io/download/) (freely available from [JKI](https://jki.net)) will start automatically.
+3. Follow the on-screen instructions to complete the installation.
+
+Alternatively, the toolkit can be installed by: (i) downloading the source code and building the VIP, (ii) downloading a VIP from the [releases](https://github.com/fieldrndservices/logger/releases) section of this project, or (iii) manually copying the VIs from the source code into a project.
 
 ## Build
 
