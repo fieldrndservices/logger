@@ -6,4 +6,3 @@ please contact the project maintainer, Christopher R. Field.
 Names are listed alphabetically by given (first) name.
 
 Christopher R. Field <chris@fieldrndservices.com>
-Dan Allis <dallis@insulet.com>
