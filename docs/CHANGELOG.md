@@ -4,11 +4,14 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+## [1.10.2] - 2021-6-01
+
 ### Fixed
 
 - Error Code 1 appearing during File manager shutdown
 - Error Code 1 when unregistering a non-existent listener
 - Error Code 1 when releasing a non-existent listener
+- Error when closing a non-existent log file
 
 ## [1.10.1] - 2019-08-20
 

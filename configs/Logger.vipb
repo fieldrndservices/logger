@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2021-05-29 11:27:09" Creator="cfield" Comments="" ID="99816795387b1cde67662f7e79a882ca">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2021-05-30 11:54:44" Creator="cfield" Comments="" ID="af4302d67db1f9a8e8498f261bdcb916">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Logger</Package_File_Name>
     <Library_Version>1.10.2.79</Library_Version>
@@ -34,13 +34,14 @@
       <URL>http://sine.ni.com/nips/cds/view/p/lang/en/nid/215388</URL>
       <Release_Notes># Field R&amp;D Services: Logger
 
-## [1.10.2] - 2021-05-29
+## [1.10.2] - 2021-06-01
 
 ### Fixed
 
 - Error Code 1 appearing during File manager shutdown
 - Error Code 1 when unregistering a non-existent listener
 - Error Code 1 when releasing a non-existent listener
+- Error when closing a non-existent log file
 
 </Release_Notes>
     </Description>
@@ -385,7 +386,7 @@
         <Path>..\builds\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E7AC1B8579C38DDFCBD060BC55AD38AF</GUID>
+      <GUID>DBA755A012BE0047475A5144D70ED26C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -560,7 +561,7 @@
         <Path>..\builds\Toolkit\Action-Status\Unregister Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D1DA3D720A65A410EA98041ABEE1A4D</GUID>
+      <GUID>67E0D525AA069F8F76CA4C1E1519E04D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -749,7 +750,7 @@
         <Path>..\builds\Toolkit\Configure\Configure Delimiter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>83C189BEBC5A093248E365B43983893E</GUID>
+      <GUID>A169F9B8ECA02575567AF5381DC59C89</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -784,7 +785,7 @@
         <Path>..\builds\Toolkit\Data\Read Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B72616980F5BB7172C59834EDECBF6E</GUID>
+      <GUID>99F90099D654A70430BFD163D39DF5A9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -875,7 +876,7 @@
         <Path>..\builds\Toolkit\Utility\Create Statement Line.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DF3D495BAE64B284D30F1182ED104891</GUID>
+      <GUID>C3DC0466587DB641F4A80A3E8C969BDE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
